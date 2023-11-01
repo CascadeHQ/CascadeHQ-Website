@@ -11,12 +11,12 @@ import Seo from '../../components/seo/Seo'
 const Home = () => {
   return (
     <Fragment>
-    {/* <Seo
-        title="React SEO | About Page"
+    <Seo
+        title="Cascade | Home Page"
         description="description for about page"
-        type="webapp"
-        name="Sachin Chaurasiya"
-      /> */}
+        type="Website"
+        name="Cascade"
+      />
     <HeroSection/>
     <ServiceSection/>
     <CatelogueSection/>
