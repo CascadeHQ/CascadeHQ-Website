@@ -3,7 +3,7 @@ import ImageOne from "../../assets/images/cute-kid-glasses-studio 1.png";
 import ImageTwo from "../../assets/images/medium-shot-kid-doing-homework.png";
 import ImageThree from "../../assets/images/young-african.png";
 import ImageFour from "../../assets/images/young.png";
-import { Button } from "../../components/ui/Button";
+import Button from "../../components/ui/Button";
 
 // interface Props = {}
 
@@ -12,9 +12,9 @@ const HeroSection = () => {
     <>
       <main>
         <div
-          className={`bg-brandWhite1x grid grid-cols-1 p-3 gap-5 md:grid-cols-2 lg:px-24`}
+          className={`bg-brandWhite1x grid grid-cols-12 py-5 md:gap-5 md:px-10 lg:px-20 lg:gap-24`}
         >
-          <div className={`flex flex-col gap-4 lg:pr-24`}>
+          <div className={`col-span-7 flex flex-col gap-4`}>
             <h1 className={`text-5xl md:text-6xl lg:text-7xl`}>
               We Teach, We Empower.
             </h1>
@@ -24,8 +24,8 @@ const HeroSection = () => {
               things up and better understanding. That’s all Init.{" "}
             </p>
             <div className={`flex gap-2`}>
-              <Button variant="primary">Get your school invovled</Button>
-              <Button variant="neutral">
+              <Button intent={"primary"}>Get your school invovled</Button>
+              <Button intent={"neutral"}>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -42,22 +42,23 @@ const HeroSection = () => {
             </div>
             <div></div>
           </div>
-          <div className={`grid grid-cols-2 gap-2 md:gap-4`}>
+          <div className={`col-span-5 grid grid-cols-2 gap-2 justify-center items-center  md:gap-4`}>
             <div
-              className={`bg-brandYellow1x rounded-l-full flex items-end justify-end`}
+              className={`bg-brandYellow1x rounded-xl flex items-end justify-end`}
             >
               <img
                 src={ImageOne}
                 alt="Cascade: Image of a child on glasses"
-                className={``}
+                className={`rounded-r-xl`}
               />
             </div>
             <div
-              className={`bg-brandBlue3x rounded-xl flex items-end justify-end`}
+              className={`bg-brandBlue3x rounded-xl flex items-end justify-start`}
             >
               <img
                 src={ImageTwo}
                 alt="Cascade: Image of a young boy doing his assignment"
+                className={`rounded-l-xl rounded-r-xl`}
               />
             </div>
             <div
@@ -69,11 +70,12 @@ const HeroSection = () => {
               />
             </div>
             <div
-              className={`bg-brandYellow1x rounded-r-full flex items-end justify-star`}
+              className={`bg-brandYellow1x rounded-xl flex items-end justify-star`}
             >
               <img
                 src={ImageFour}
                 alt="Cascade: Image of a a young tech girl with her tablet and laptop"
+                className={`rounded-l-xl`}
               />
             </div>
           </div>
