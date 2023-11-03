@@ -12,6 +12,8 @@
   "dependencies": {
     "@types/react-router": "^5.1.20",
     "@types/react-router-dom": "^5.3.3",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.0.0",
     "framer-motion": "^10.16.4",
     "localforage": "^1.10.0",
     "match-sorter": "^6.3.1",
@@ -21,7 +23,8 @@
     "react-icons": "^4.11.0",
     "react-router": "^6.18.0",
     "react-router-dom": "^6.17.0",
-    "sort-by": "^1.2.0"
+    "sort-by": "^1.2.0",
+    "tailwind-merge": "^2.0.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",
