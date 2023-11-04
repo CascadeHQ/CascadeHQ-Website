@@ -1,3 +1,183 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: made-tommy-black;
+    src: url("./assets/fonts/Made-Tommy/MADE-TOMMY-Black.woff") format("woff");
+}
+
+@font-face {
+    font-family: made-tommy-black-outline;
+    src: url("./assets/fonts/Made-Tommy/MADE-TOMMY-Black-Outline.woff") format("woff"); 
+}
+
+@font-face {
+    font-family: made-tommy-thin;
+    src: url("./assets/fonts/Made-Tommy/MADE-TOMMY-Thin.woff") format("woff");
+}
+
+@font-face {
+    font-family: made-tommy-thin-outline;
+    src: url("./assets/fonts/Made-Tommy/MADE-TOMMY-Thin-Outline.woff") format("woff");
+}
+
+
+@font-face {
+    font-family: made-tommy-regular;
+    src: url("./assets/fonts/Made-Tommy/MADE-TOMMY-Regular_.woff") format("woff");
+}
+
+@font-face {
+    font-family: made-tommy-regular-outline;
+    src: url("./assets/fonts/Made-Tommy/MADE-TOMMY-Regular-Outline.woff") format("woff");
+}
+
+@font-face {
+    font-family: made-tommy-medium;
+    src: url("./assets/fonts/Made-Tommy/MADE-TOMMY-Medium.woff") format("woff");
+}
+
+@font-face {
+    font-family: made-tommy-medium-outline;
+    src: url("./assets/fonts/Made-Tommy/MADE-TOMMY-Medium-Outline.woff") format("woff");
+}
+
+@font-face {
+    font-family: made-tommy-light;
+    src: url("./assets/fonts/Made-Tommy/MADE-TOMMY-Light.woff") format("woff");
+}
+
+@font-face {
+    font-family: made-tommy-light-outline;
+    src: url("./assets/fonts/Made-Tommy/MADE-TOMMY-Light-Outline.woff") format("woff");
+}
+
+@font-face {
+    font-family: made-tommy-extraBold;
+    src: url("./assets/fonts/Made-Tommy/MADE-TOMMY-ExtraBold.woff") format("woff");
+}
+
+@font-face {
+    font-family: made-tommy-extraBold-outline;
+    src: url("./assets/fonts/Made-Tommy/MADE-TOMMY-ExtraBold-Outline.woff") format("woff");
+}
+
+@font-face {
+    font-family: made-tommy-bold;
+    src: url("./assets/fonts/Made-Tommy/MADE-TOMMY-Bold.woff") format("woff");
+}
+
+@font-face {
+    font-family: made-tommy-bold-outline;
+    src: url("./assets/fonts/Made-Tommy/MADE-TOMMY-Bold-Outline_.woff") format("woff");
+}
+
+
+@font-face {
+    font-family: ruberoid-bold;
+    src: url("./assets/fonts/Ruberiod/Ruberoid-Bold.woff") format("woff");
+        
+}
+
+@font-face {
+    font-family: ruberoid-bold-oblique;
+    src: url("./assets/fonts/Ruberiod/Ruberoid-BoldOblique.woff") format("woff");
+        
+}
+
+@font-face {
+    font-family: ruberoid-extraBold;
+    src: url("./assets/fonts/Ruberiod/Ruberoid-ExtraBold.woff") format("woff");
+        
+}
+
+@font-face {
+    font-family: ruberoid-extraBold-oblique;
+    src: url("./assets/fonts/Ruberiod/Ruberoid-ExtraBoldOblique.woff") format("woff");
+     
+}
+
+@font-face {
+    font-family: ruberoid-extraLight;
+    src: url("./assets/fonts/Ruberiod/Ruberoid-ExtraLight.woff") format("woff");
+        
+}
+
+@font-face {
+    font-family: ruberoid-extraLight-oblique;
+    src: url("./assets/fonts/Ruberiod/Ruberoid-ExtraLightOblique.woff") format("woff");
+        
+}
+
+@font-face {
+    font-family: ruberoid-light;
+    src: url("./assets/fonts/Ruberiod/Ruberoid-Light.woff") format("woff");
+        
+}
+
+@font-face {
+    font-family: ruberoid-light-oblique;
+    src: url("./assets/fonts/Ruberiod/Ruberoid-LightOblique.woff") format("woff");
+        
+}
+
+@font-face {
+    font-family: ruberoid-medium;
+    src: url("./assets/fonts/Ruberiod/Ruberoid-Medium.woff") format("woff");
+        
+}
+
+@font-face {
+    font-family: ruberoid-medium-oblique;
+    src: url("./assets/fonts/Ruberiod/Ruberoid-MediumOblique.woff") format("woff");
+        
+}
+
+@font-face {
+    font-family: ruberoid-oblique;
+    src: url("./assets/fonts/Ruberiod/Ruberoid-Oblique.woff") format("woff");
+        
+}
+
+@font-face {
+    font-family: ruberoid-regular;
+    src: url("./assets/fonts/Ruberiod/Ruberoid-Regular.woff") format("woff");
+        
+}
+
+@font-face {
+    font-family: ruberoid-semiBold;
+    src: url("./assets/fonts/Ruberiod/Ruberoid-SemiBold.woff") format("woff");
+        
+}
+
+@font-face {
+    font-family: ruberoid-semiBold-oblique;
+    src: url("./assets/fonts/Ruberiod/Ruberoid-SemiBoldOblique.woff") format("woff");
+        
+}
+
+@font-face {
+    font-family: ruberoid-thin;
+    src: url("./assets/fonts/Ruberiod/Ruberoid-Thin.woff") format("woff");
+        
+}
+
+@font-face {
+    font-family: ruberoid-thin-oblique;
+    src: url("./assets/fonts/Ruberiod/Ruberoid-ThinOblique.woff") format("woff");
+        
+}
+
+@font-face {
+    font-family: ruberoid-ultraLight;
+    src: url("./assets/fonts/Ruberiod/Ruberoid-UltraLight.woff") format("woff");
+        
+}
+
+@font-face {
+    font-family: ruberoid-ultraLight-oblique;
+    src: url("./assets/fonts/Ruberiod/Ruberoid-UltraLightOblique.woff") format("woff");
+        
+}
