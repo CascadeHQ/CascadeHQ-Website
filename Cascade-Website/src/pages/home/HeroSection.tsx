@@ -4,6 +4,12 @@ import ImageTwo from "../../assets/images/medium-shot-kid-doing-homework.png";
 import ImageThree from "../../assets/images/young-african.png";
 import ImageFour from "../../assets/images/young.png";
 import Button from "../../components/ui/Button";
+// import StarPepicom from "../../assets/images/pepicons-print_stars.png";
+// import ArrowSpiral from "../../assets/images/arrow-spiral-up.png";
+// import ArrowWiggle from "../../assets/images/arrow-wiggle-up-1.png";
+// import StarMdi from "../../assets/images/mdi_stars.png";
+// import StarWi from "../../assets/images/wi_stars.png"
+
 
 // interface Props = {}
 
@@ -12,18 +18,22 @@ const HeroSection = () => {
     <>
       <main>
         <div
-          className={`bg-brandWhite1x grid grid-rows-12  py-5 px-5  md:grid-cols-12 md:gap-5 md:px-10 lg:px-20 lg:gap-24`}
+          className={`bg-brandWhite1x grid grid-rows-12 gap-6  py-5 px-5  md:grid-cols-12 md:gap-5 md:px-10 lg:px-20 lg:gap-24`}
         >
-          <div className={`col-span-7 flex flex-col gap-4`}>
-            <h1 className={`flex flex-col text-5xl font-madeTommyBlack md:text-5xl lg:text-6xl`}>
+          <div
+            className={`relative col-span-7 flex flex-col gap-4 justify-center`}
+          >
+            <h1
+              className={`flex flex-col text-4xl font-ruberoidBold md:text-5xl lg:text-6xl`}
+            >
               <span>We Teach,</span>
               <span>We Empower.</span>
             </h1>
             <div className={`flex gap-4`}>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="40"
-                height="40"
+                width="60"
+                height="60"
                 viewBox="0 0 40 40"
                 fill="none"
               >
@@ -50,11 +60,11 @@ const HeroSection = () => {
                   fill="#010101"
                 />
               </svg>
-            <p className={`text-md md:text-base lg:pr-32`}>
-              And some set of body text to spice things up and better
-              understanding. That’s all Init. And some set of body text to spice
-              things up and better understanding. That’s all Init.{" "}
-            </p>
+              <p className={`text-md font-madeTommyThin md:text-base lg:pr-32`}>
+                And some set of body text to spice things up and better
+                understanding. That’s all Init. And some set of body text to
+                spice things up and better understanding. That’s all Init.{" "}
+              </p>
             </div>
             <div className={`flex gap-2`}>
               <Button intent={"primary"}>Get your school invovled</Button>
@@ -73,8 +83,7 @@ const HeroSection = () => {
                 </svg>{" "}
                 Book a call
               </Button>
-            </div>
-            <div></div>
+            </div>    
           </div>
           <div
             className={`col-span-5 grid grid-cols-2 gap-2 justify-center items-center lg:gap-4`}

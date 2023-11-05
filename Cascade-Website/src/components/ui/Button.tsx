@@ -1,17 +1,15 @@
-import {React, ComponentProps} from "react";
+import { React, ComponentProps } from "react";
 import { cva, type VariantProps } from "class-variance-authority";
 import { twMerge } from "tailwind-merge";
-
-
 
 const buttonVariants = cva("button", {
   variants: {
     intent: {
       primary: [
-        "bg-brandBlue1x text-brandWhite1x text-xs flex items-center justify-center rounded-full shadow-md drop-shadow-navItem py-3 px-5 transition ease-in-out delay-150 md:text-md lg:text-base lg:px8 hover:bg-brandYellow1x"
+        "bg-brandBlue1x text-brandWhite1x text-xs flex items-center justify-center rounded-full shadow-md drop-shadow-navItem py-3 px-4 transition ease-in-out delay-150 lg:px8 hover:bg-brandYellow1x font-madeTommyMedium",
       ],
       neutral: [
-        "bg-brandWhite1x text-brandBlue3x flex items-center justify center gap-2 rounded-full shadow-md drop-shadow-navItem py-3 px-5 transition ease-in-out delay-150 md:text-md lg:text-base lg:px-8 hover:bg-brandYellow1x"
+        "bg-brandWhite1x text-brandBlue3x text-xs flex items-center justify center gap-2 rounded-full shadow-md drop-shadow-navItem py-3 px-4 transition ease-in-out delay-150   lg:px-8 hover:bg-brandYellow1x font-madeTommyMedium",
       ],
       outline: [
         "bg-white",
@@ -25,19 +23,23 @@ const buttonVariants = cva("button", {
       medium: ["text-md", "py-2", "px-4"],
     },
   },
-  
+
   defaultVariants: {
     intent: "primary",
   },
 });
 
-type buttonType = VariantProps<typeof buttonVariants> & ComponentProps<"button">;
+type buttonType = VariantProps<typeof buttonVariants> &
+  ComponentProps<"button">;
 
-const Button =({intent, size, className,...props}:buttonType)=>{
-    return(
-        <button {...props} className={twMerge(buttonVariants({intent, size}), className)}/>
-    );
-}
+const Button = ({ intent, size, className, ...props }: buttonType) => {
+  return (
+    <button
+      {...props}
+      className={twMerge(buttonVariants({ intent, size }), className)}
+    />
+  );
+};
 
 // export interface ButtonProps
 //   extends React.ButtonHTMLAttributes<HTMLButtonElement>,
@@ -49,8 +51,6 @@ const Button =({intent, size, className,...props}:buttonType)=>{
 //   size,
 //   ...props
 // }) => <button className={button({ intent, size, className })} {...props} />;
-
-
 
 // type Props ={
 //     content:string,
