@@ -21,7 +21,7 @@ const HeroSection = () => {
           className={`bg-brandWhite1x grid grid-rows-12 gap-6  py-5 px-5  md:grid-cols-12 md:gap-5 md:px-10 lg:px-20 lg:gap-24`}
         >
           <div
-            className={`relative col-span-7 flex flex-col gap-4 justify-center`}
+            className={`relative col-span-8 md:col-span-7 flex flex-col gap-4 justify-center`}
           >
             <h1
               className={`flex flex-col text-4xl font-ruberoidBold md:text-5xl lg:text-6xl`}
@@ -86,7 +86,7 @@ const HeroSection = () => {
             </div>    
           </div>
           <div
-            className={`col-span-5 grid grid-cols-2 gap-2 justify-center items-center lg:gap-4`}
+            className={`col-span-8  grid grid-cols-2 gap-2 justify-center items-center md:col-span-5 lg:gap-4`}
           >
             <div
               className={`bg-brandYellow1x rounded-xl flex items-end justify-end`}

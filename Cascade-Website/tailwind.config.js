@@ -63,6 +63,9 @@ export default {
         "3xl": "0 35px 35px rgba(0, 0, 0, 0.25)",
         navItem: "0px, 10px rgba(188, 186, 186, 0.25)",
       },
+      backgroundImage:{
+        "service-pattern":"url('./assets/images/Rectangle.png')"
+      },
     },
   },
   plugins: [],

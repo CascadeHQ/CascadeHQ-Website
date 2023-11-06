@@ -9,7 +9,7 @@ const buttonVariants = cva("button", {
         "bg-brandBlue1x text-brandWhite1x text-xs flex items-center justify-center rounded-full shadow-md drop-shadow-navItem py-3 px-4 transition ease-in-out delay-150 lg:px8 hover:bg-brandYellow1x font-madeTommyMedium",
       ],
       neutral: [
-        "bg-brandWhite1x text-brandBlue3x text-xs flex items-center justify center gap-2 rounded-full shadow-md drop-shadow-navItem py-3 px-4 transition ease-in-out delay-150   lg:px-8 hover:bg-brandYellow1x font-madeTommyMedium",
+        "bg-brandWhite1x text-brandBlue3x text-xs flex items-center justify center gap-2 rounded-full shadow-md drop-shadow-navItem py-3 px-8 transition ease-in-out delay-150   lg:px-8 hover:bg-brandYellow1x font-madeTommyMedium",
       ],
       outline: [
         "bg-white",
