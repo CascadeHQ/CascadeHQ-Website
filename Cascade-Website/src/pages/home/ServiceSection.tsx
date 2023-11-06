@@ -9,7 +9,7 @@ const ServiceSection = () => {
     <>
       <section>
         <div className={`bg-service-pattern py-16 `}>
-          <div className={`flex`}>
+          <div className={`flex items-center`}>
             <div className={`flex flex-col`}>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -44,11 +44,11 @@ const ServiceSection = () => {
                 />
               </svg>
             </div>
-            <h2>Benefits of our Service to your Students</h2>
+            <h2 className={`text-3xl font-ruberoidBold`}>Benefits of our <br /> Service to your Students</h2>
           </div>
           <div className={`grid grid-cols-1 md:grid-cols-3 md:px-10 lg:px-20`}>
-            <section>
-              <div>
+            <section >
+              <div className={`bg-brandWhite1x/80 p-5`}>
                 <img src={MedalOne} alt="Cascade: Medal Icon" />
                 <h3>Learn on-demand Tech Skills</h3>
                 <p>
