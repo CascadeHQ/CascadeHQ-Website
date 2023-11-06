@@ -4,7 +4,13 @@ import React from 'react'
 
 const TestimoniesSection = () => {
   return (
-    <div>TestimoniesSection</div>
+    <>
+    <section>
+      <article>
+        
+      </article>
+    </section>
+    </>
   )
 }
 

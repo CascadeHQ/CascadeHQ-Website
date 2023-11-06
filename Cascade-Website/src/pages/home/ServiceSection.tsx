@@ -8,7 +8,7 @@ const ServiceSection = () => {
   return (
     <>
       <section>
-        <div className={`bg-service-pattern py-16 `}>
+        <div className={`bg-brandYellow1x py-16 flex flex-col gap-10`}>
           <div className={`flex items-center`}>
             <div className={`flex flex-col`}>
               <svg
@@ -44,34 +44,23 @@ const ServiceSection = () => {
                 />
               </svg>
             </div>
-            <h2 className={`text-3xl font-ruberoidBold`}>Benefits of our <br /> Service to your Students</h2>
+            <h2 className={`text-xl font-ruberoidBold md:text-3xl`}>Benefits of our <br /> Service to your Students</h2>
           </div>
-          <div className={`grid grid-cols-1 md:grid-cols-3 md:px-10 lg:px-20`}>
-            <section >
-              <div className={`bg-brandWhite1x/80 p-5`}>
-                <img src={MedalOne} alt="Cascade: Medal Icon" />
-                <h3>Learn on-demand Tech Skills</h3>
-                <p>
+          <div className={`grid grid-cols-1 gap-8 items-center justify-center px-5 md:grid-cols-3 md:px-10 lg:px-20`}>
+            <section className={`grid grid-cols-1 gap-8`}>
+              <div className={`flex flex-col gap-2 bg-brandWhite1x/80 p-5 rounded-xl shadow-2xl`}>
+                <img src={MedalOne} alt="Cascade: Medal Icon" className={`w-14`}/>
+                <h3 className={`font-ruberoidBold text-lg`}>Learn on-demand Tech Skills</h3>
+                <p className={`font-madeTommyLight text-xm`}>
                   some brief explanation, ok. some brief explanation, ok. some
                   brief explanation, ok. some brief explanation, ok. some brief
                   explanation, ok. some brief explanation, ok.
                 </p>
               </div>
-              <div>
-                <img src={MedalOne} alt="Cascade: Medal Icon" />
-                <h3>Learn on-demand Tech Skills</h3>
-                <p>
-                  some brief explanation, ok. some brief explanation, ok. some
-                  brief explanation, ok. some brief explanation, ok. some brief
-                  explanation, ok. some brief explanation, ok.
-                </p>
-              </div>
-            </section>
-            <section>
-              <div>
-                <img src={MedalOne} alt="Cascade: Medal Icon" />
-                <h3>Learn on-demand Tech Skills</h3>
-                <p>
+              <div className={`flex flex-col gap-2 bg-brandWhite1x/80 p-5 rounded-xl shadow-2xl`}>
+                <img src={MedalTwo} alt="Cascade: Medal Icon" className={`w-14`}/>
+                <h3 className={`font-ruberoidBold text-lg`}>Learn on-demand Tech Skills</h3>
+                <p className={`font-madeTommyLight text-xm`}>
                   some brief explanation, ok. some brief explanation, ok. some
                   brief explanation, ok. some brief explanation, ok. some brief
                   explanation, ok. some brief explanation, ok.
@@ -79,19 +68,30 @@ const ServiceSection = () => {
               </div>
             </section>
             <section>
-              <div>
-                <img src={MedalOne} alt="Cascade: Medal Icon" />
-                <h3>Learn on-demand Tech Skills</h3>
-                <p>
+            <div className={`flex flex-col gap-2 bg-brandWhite1x/80 p-5 rounded-xl shadow-2xl`}>
+                <img src={MedalOne} alt="Cascade: Medal Icon" className={`w-14`}/>
+                <h3 className={`font-ruberoidBold text-lg`}>Learn on-demand Tech Skills</h3>
+                <p className={`font-madeTommyLight text-xm`}>
                   some brief explanation, ok. some brief explanation, ok. some
                   brief explanation, ok. some brief explanation, ok. some brief
                   explanation, ok. some brief explanation, ok.
                 </p>
               </div>
-              <div>
-                <img src={MedalOne} alt="Cascade: Medal Icon" />
-                <h3>Learn on-demand Tech Skills</h3>
-                <p>
+            </section>
+            <section className={`grid grid-cols-1 gap-8`}>
+            <div className={`flex flex-col gap-2 bg-brandWhite1x/80 p-5 rounded-xl shadow-2xl`}>
+                <img src={MedalTwo} alt="Cascade: Medal Icon" className={`w-14`}/>
+                <h3 className={`font-ruberoidBold text-lg`}>Learn on-demand Tech Skills</h3>
+                <p className={`font-madeTommyLight text-xm`}>
+                  some brief explanation, ok. some brief explanation, ok. some
+                  brief explanation, ok. some brief explanation, ok. some brief
+                  explanation, ok. some brief explanation, ok.
+                </p>
+              </div>
+              <div className={`flex flex-col gap-2 bg-brandWhite1x/80 p-5 rounded-xl shadow-2xl`}>
+                <img src={MedalOne} alt="Cascade: Medal Icon" className={`w-14`}/>
+                <h3 className={`font-ruberoidBold text-lg`}>Learn on-demand Tech Skills</h3>
+                <p className={`font-madeTommyLight text-xm`}>
                   some brief explanation, ok. some brief explanation, ok. some
                   brief explanation, ok. some brief explanation, ok. some brief
                   explanation, ok. some brief explanation, ok.

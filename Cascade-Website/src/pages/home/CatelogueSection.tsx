@@ -4,7 +4,18 @@ import React from 'react'
 
 const CatelogueSection = () => {
   return (
-    <div>CatelogueSection</div>
+    <>
+    <article>
+      <section>
+        <h2>
+          Choose Courses from our catalogue
+        </h2>
+        <aside>
+          
+        </aside>
+      </section>
+    </article>
+    </>
   )
 }
 
