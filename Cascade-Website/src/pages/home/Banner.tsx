@@ -13,7 +13,7 @@ const Banner = () => {
             understanding. That’s all Init. And some set of body text to spice
             things up and better understanding.
           </p>
-          <div className={`flex gap-2`}>
+          <div className={`flex gap-4`}>
             <Button intent={"primary"}>Get your school invovled</Button>
             <Button intent={"neutral"}>
               <svg
