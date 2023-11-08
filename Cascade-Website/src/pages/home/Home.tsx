@@ -5,6 +5,7 @@ import CatelogueSection from './CatelogueSection'
 import TestimoniesSection from './TestimoniesSection'
 import FaQSection from './FaQSection'
 import Seo from '../../components/seo/Seo'
+import Banner from './Banner'
 
 // interface Props = {}
 
@@ -19,8 +20,9 @@ const Home = () => {
       />
     <HeroSection/>
     <ServiceSection/>
-    <CatelogueSection/>
+    {/* <CatelogueSection/> */}
     <TestimoniesSection/>
+    <Banner/>
     <FaQSection/>
     </Fragment>
   )

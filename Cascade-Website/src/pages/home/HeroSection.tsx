@@ -60,7 +60,7 @@ const HeroSection = () => {
                   fill="#010101"
                 />
               </svg>
-              <p className={`text-md font-madeTommyThin md:text-base lg:pr-32`}>
+              <p className={`text-md font-madeTommyLight md:text-base lg:pr-32`}>
                 And some set of body text to spice things up and better
                 understanding. That’s all Init. And some set of body text to
                 spice things up and better understanding. That’s all Init.{" "}
