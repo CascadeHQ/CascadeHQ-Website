@@ -24,10 +24,10 @@ const HeroSection = () => {
             className={`relative col-span-8 md:col-span-7 flex flex-col gap-4 justify-center`}
           >
             <h1
-              className={`flex flex-col text-4xl font-ruberoidBold md:text-5xl lg:text-6xl`}
+              className={`flex flex-col text-4xl font-ruberoidExtraBold md:text-5xl lg:text-7xl`}
             >
-              <span>We Teach,</span>
-              <span>We Empower.</span>
+              <span>Building To</span>
+              <span>Redefine.</span>
             </h1>
             <div className={`flex gap-4`}>
               <svg
@@ -60,7 +60,7 @@ const HeroSection = () => {
                   fill="#010101"
                 />
               </svg>
-              <p className={`text-md font-madeTommyLight md:text-base lg:pr-32`}>
+              <p className={`text-md font-madeTommyRegular md:text-base lg:pr-32`}>
                 And some set of body text to spice things up and better
                 understanding. That’s all Init. And some set of body text to
                 spice things up and better understanding. That’s all Init.{" "}

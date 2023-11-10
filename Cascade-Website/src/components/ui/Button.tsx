@@ -11,6 +11,9 @@ const buttonVariants = cva("button", {
       neutral: [
         "bg-brandWhite1x text-brandBlue3x text-xs flex items-center justify center gap-2 rounded-full shadow-md drop-shadow-navItem py-3 px-8 transition ease-in-out delay-150   lg:px-8 hover:bg-brandYellow1x font-madeTommyRegular",
       ],
+      moreBtn:[
+        "bg-brandWhite1x text-lg flex items-center justify center gap-2 w-1/2 rounded-full z-[999]  shadow-md drop-shadow-navItem py-3 px-8 transition ease-in-out delay-150   lg:px-8 hover:bg-brandYellow1x font-madeTommyRegular",
+      ],
       outline: [
         "bg-white",
         "text-gray-800",

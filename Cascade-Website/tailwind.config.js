@@ -11,6 +11,7 @@ export default {
         brandBlack1x: "#010101",
         brandYellow1x: "#FCCB06",
         brandGray1x: "#FFFFFFCC",
+        brandGray2x:"#fff9f1",
         brandWhite1x: "#FFFFFF",
         brandGreen: "#2E9C00",
       },

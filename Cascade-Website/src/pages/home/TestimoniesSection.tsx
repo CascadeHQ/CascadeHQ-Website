@@ -19,25 +19,7 @@ const TestimoniesSection = () => {
             </div>
           </div>
           <section className={``}>
-            <div className={`flex relative overflow-x-auto `}>
-              <div className={`grid grid-cols-1 gap-4 w-5/6 justify-center items-center  mx-auto  bg-brandWhite1x/80 p-5 px-10 rounded-xl shadow-xl`}>
-                <p className={`text-5xl font-ruberoidBold`}>"</p>
-                <div className={`flex gap-4`}>
-                  <img src={Profile} alt="Cascade: Profile images" className={`w-[10g%]`}/>
-                  <div >
-                    <p className={`text-md font-ruberoidRegular`}>Fullname</p>
-                    <p className={`text-md font-ruberoidRegular`}>Role / Skill</p>
-                    <p className={`text-md font-ruberoidRegular`}>Twitter handle</p>
-                  </div>
-                </div>
-                <p className={`text-md font-ruberoidRegular`}>
-                  Just a story of a young individual who had primary education
-                  of tech and how it sharped his entire career. Just a story of
-                  a young individual who had primary education of tech and how
-                  it sharped his entire career. Just a story of a young
-                  individual who had primary education of tech.
-                </p>
-              </div>
+            <div className={`flex gap-5 px-5`}>
               <div className={`grid grid-cols-1 gap-4 w-5/6 justify-center items-center  mx-auto  bg-brandWhite1x/80 p-5 px-10 rounded-xl shadow-xl`}>
                 <p className={`text-5xl font-ruberoidBold`}>"</p>
                 <div className={`flex gap-4`}>
