@@ -19,7 +19,7 @@ const TestimoniesSection = () => {
             </div>
           </div>
           <section className={``}>
-            <div className={`flex gap-5 px-5`}>
+            <div className={`grid grid-cols-1 gap-5 px-2 md:grid-cols-3 md:px-5`}>
               <div className={`grid grid-cols-1 gap-4 w-5/6 justify-center items-center  mx-auto  bg-brandWhite1x/80 p-5 px-10 rounded-xl shadow-xl`}>
                 <p className={`text-5xl font-ruberoidBold`}>"</p>
                 <div className={`flex gap-4`}>

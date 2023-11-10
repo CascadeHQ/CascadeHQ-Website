@@ -2,10 +2,7 @@ import React from 'react'
 import Logo from "../../assets/logo/CASCADE LOGO TRANSAPARENT.png";
 import NavData from '../../data/NavData';
 
-
-interface Props = {}
-
-const NavBar = (props: Props) => {
+const NavBar = () => {
   return (
     <div>NavBar</div>
   )

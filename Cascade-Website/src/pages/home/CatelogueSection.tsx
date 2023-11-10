@@ -47,7 +47,7 @@ const CatelogueSection = () => {
               Our Courses{" "}
             </h2>
           </div>
-          <section className={`grid grid-cols-1 gap-7 p-5 md:grid-cols-3 lg:p-20`}>
+          <section className={`grid grid-cols-1 gap-7 p-5 md:grid-cols-2 lg:p-20 lg:grid-cols-3`}>
             <aside
               className={`flex flex-col gap-4 px-6 py-10 shadow-xl rounded-xl w-full`}
             >
