@@ -8,6 +8,7 @@ export default {
         brandBlue2x: "#87CEEBCC",
         brandBlue3x: "#28BBEC",
         brandBlue4x:"#f0f8fa",
+        brandBlue5x: "#017AFF",
         brandBlack1x: "#010101",
         brandYellow1x: "#FCCB06",
         brandGray1x: "#FFFFFFCC",

@@ -1,9 +1,10 @@
-import React from "react";
 import Template from "../../widgets/Template";
 import Seo from "../../components/seo/Seo";
 
 // components
 import AboutHeroSection from "./components/AboutHeroSection";
+import SponsorsSection from "./components/SponsorsSection";
+import MainAboutUsSection from "./components/MainAboutUsSection";
 
 const AboutUs = () => {
   return (
@@ -16,6 +17,8 @@ const AboutUs = () => {
           name="Cascade"
         />
         <AboutHeroSection/>
+        <SponsorsSection/>
+        <MainAboutUsSection/>
       </>
     </Template>
   );
