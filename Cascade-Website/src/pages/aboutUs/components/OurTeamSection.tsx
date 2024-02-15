@@ -42,7 +42,7 @@ const OurTeamSection = () => {
                 </div>
                 <div className={`text-center`}>
                   <h4 className={`font-madeTommyRegular font-bold xl:text-2xl xl:leading-7`}>{member.name}</h4>
-                  <p className={`font-madeTommyThin font-normal mx-auto my-0 w-2/4 xl:w-full mt-3 xl:mt-5 xl:text-base xl:leading-5`}>
+                  <p className={`font-madeTommyThin font-normal mx-auto my-0 w-full md:w-2/4 xl:w-full mt-3 xl:mt-5 xl:text-base xl:leading-5`}>
                     {member.information}
                   </p>
                 </div>
