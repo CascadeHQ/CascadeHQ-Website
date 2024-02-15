@@ -66,7 +66,8 @@ export default {
         navItem: "0px, 10px rgba(188, 186, 186, 0.25)",
       },
       backgroundImage:{
-        "service-pattern":"url('./assets/images/Rectangle.png')"
+        "service-pattern":"url('./assets/images/Rectangle.png')",
+        "about-hero-section":"url('./src/pages/aboutUs/images/Background.jpg)"
       },
     },
   },
