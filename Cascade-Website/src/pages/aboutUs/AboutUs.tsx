@@ -5,6 +5,7 @@ import Seo from "../../components/seo/Seo";
 import AboutHeroSection from "./components/AboutHeroSection";
 import SponsorsSection from "./components/SponsorsSection";
 import MainAboutUsSection from "./components/MainAboutUsSection";
+import OurTeamSection from "./components/OurTeamSection";
 
 const AboutUs = () => {
   return (
@@ -19,6 +20,7 @@ const AboutUs = () => {
         <AboutHeroSection/>
         <SponsorsSection/>
         <MainAboutUsSection/>
+        <OurTeamSection/>
       </>
     </Template>
   );

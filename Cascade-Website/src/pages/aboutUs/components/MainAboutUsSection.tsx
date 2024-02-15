@@ -14,21 +14,21 @@ const MainAboutUsSection = () => {
             />
           </div>
           <div className={`w-[100%]`}>
-            <h1 className={`font-bold text-3xl xl:text-[64px] leading-tight madeTommyRegular`}>About Us</h1>
+            <h1 className={`font-bold text-3xl xl:text-[64px] leading-tight font-madeTommyExtraBold`}>About Us</h1>
             <div className={`mt-5`}>
-              <p className={`madeTommyRegular font-normal xl:text-xl mb-5`}>
+              <p className={`font-font-madeTommyThin text-base font-normal xl:text-xl mb-5`}>
                 some brief explanation, ok. some brief explanation, ok. some
                 brief explanation, ok. some brief explanation, ok. some brief
                 explanation, ok. some brief explanation, ok. some brief
                 explanation, ok.
               </p>
-              <p className={`madeTommyRegular font-normal xl:text-xl mb-5`}>
+              <p className={`font-font-madeTommyThin text-base font-normal xl:text-xl mb-5`}>
                 some brief explanation, ok. some brief explanation, ok. some
                 brief explanation, ok. some brief explanation, ok. some brief
                 explanation, ok. some brief explanation, ok. some brief
                 explanation, ok.
               </p>
-              <p className={`madeTommyRegular font-normal xl:text-xl mb-5`}>
+              <p className={`font-font-madeTommyThin text-base font-normal xl:text-xl mb-5`}>
                 some brief explanation, ok. some brief explanation, ok. some
                 brief explanation, ok. some brief explanation, ok. some brief
                 explanation, ok. some brief explanation, ok. some brief
