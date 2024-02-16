@@ -2,7 +2,7 @@ import { Routes, Route } from "react-router-dom";
 
 // Pages
 import Home from "../pages/home/Home";
-import AboutUs from "../pages/aboutUs/aboutUs";
+import AboutUs from "../pages/aboutUs/AboutUs";
 
 const ApplicationRoutes = () => {
   return (

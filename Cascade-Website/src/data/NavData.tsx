@@ -6,7 +6,7 @@ const NavData = [
   },
   {
     pageName: "About",
-    link: "/about",
+    link: "/about-us",
     end: false,
   },
   {
