@@ -22,7 +22,7 @@ const SingleFaq: React.FC<SingleFaqProps> = ({ faq }) => {
   return (
     <>
       <main>
-        <div className={``}>
+        <div className={`cursor-pointer`} onClick={() => handleShowAnswers()}>
           <div className={`flex justify-between items-center xl:text-xl `}>
             <div>
               <h1
