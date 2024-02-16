@@ -1,6 +1,4 @@
 import React from "react";
-import MedalOne from "../../assets/images/image 1.png";
-import MedalTwo from "../../assets/images/image 2.png";
 
 // interface Props = {}
 
@@ -15,7 +13,6 @@ const ServiceSection = () => {
           <div className={`grid grid-cols-1 gap-8 items-center justify-center px-5 md:grid-cols-3 md:px-10 lg:px-20`}>
             <section className={`grid grid-cols-1 gap-8`}>
               <div className={`flex flex-col gap-2 bg-brandWhite1x/80 p-5 rounded-xl shadow-2xl`}>
-                <img src={MedalOne} alt="Cascade: Medal Icon" className={`w-14`}/>
                 <h3 className={`font-ruberoidBold text-lg`}>Learn on-demand Tech Skills</h3>
                 <p className={`font-madeTommyLight text-xm`}>
                   some brief explanation, ok. some brief explanation, ok. some
@@ -24,7 +21,6 @@ const ServiceSection = () => {
                 </p>
               </div>
               <div className={`flex flex-col gap-2 bg-brandWhite1x/80 p-5 rounded-xl shadow-2xl`}>
-                <img src={MedalTwo} alt="Cascade: Medal Icon" className={`w-14`}/>
                 <h3 className={`font-ruberoidBold text-lg`}>Learn on-demand Tech Skills</h3>
                 <p className={`font-madeTommyLight text-xm`}>
                   some brief explanation, ok. some brief explanation, ok. some
@@ -35,7 +31,6 @@ const ServiceSection = () => {
             </section>
             <section>
             <div className={`flex flex-col gap-2 bg-brandWhite1x/80 p-5 rounded-xl shadow-2xl`}>
-                <img src={MedalOne} alt="Cascade: Medal Icon" className={`w-14`}/>
                 <h3 className={`font-ruberoidBold text-lg`}>Learn on-demand Tech Skills</h3>
                 <p className={`font-madeTommyLight text-xm`}>
                   some brief explanation, ok. some brief explanation, ok. some
@@ -46,7 +41,6 @@ const ServiceSection = () => {
             </section>
             <section className={`grid grid-cols-1 gap-8`}>
             <div className={`flex flex-col gap-2 bg-brandWhite1x/80 p-5 rounded-xl shadow-2xl`}>
-                <img src={MedalTwo} alt="Cascade: Medal Icon" className={`w-14`}/>
                 <h3 className={`font-ruberoidBold text-lg`}>Learn on-demand Tech Skills</h3>
                 <p className={`font-madeTommyLight text-xm`}>
                   some brief explanation, ok. some brief explanation, ok. some
@@ -55,7 +49,6 @@ const ServiceSection = () => {
                 </p>
               </div>
               <div className={`flex flex-col gap-2 bg-brandWhite1x/80 p-5 rounded-xl shadow-2xl`}>
-                <img src={MedalOne} alt="Cascade: Medal Icon" className={`w-14`}/>
                 <h3 className={`font-ruberoidBold text-lg`}>Learn on-demand Tech Skills</h3>
                 <p className={`font-madeTommyLight text-xm`}>
                   some brief explanation, ok. some brief explanation, ok. some

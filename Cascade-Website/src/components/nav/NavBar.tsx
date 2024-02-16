@@ -5,9 +5,7 @@ import CascadeLogo from "../../assets/logo/CASCADE LOGO TRANSAPARENT.png";
 import Button from "../ui/Button";
 import { AiOutlineAlignRight, AiOutlineClose } from "react-icons/ai";
 
-const menuToggle = (event: React.MouseEvent<HTMLElement>) => {
-  console.log("I am here");
-};
+
 
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -33,7 +31,7 @@ const NavBar = () => {
           >
             {NavData.map((item, idx) => {
               return (
-                <li key={idx} className={`flex`}>
+                <li key={idx} className={`flex text-sm`}>
                   <NavLink
                     end={item.end}
                     to={item.link}

@@ -1,14 +1,21 @@
 import React from "react";
-import Button from "../../components/ui/Button";
-
+import Button from "../../../components/ui/Button";
 
 const Banner = () => {
   return (
     <>
       <section>
-        <aside className={`flex flex-col justify-center items-center gap-4 bg-brandBlue3x py-12 `}>
-          <h1 className={`font-ruberoidBold text-brandWhite1x text-center text-3xl`}>Get your Students registered today</h1>
-          <p className={`font-madeTommyLight text-sm text-center px-10 lg:px-96`}>
+        <aside
+          className={`flex flex-col justify-center items-center gap-4 bg-brandBlue3x py-12 `}
+        >
+          <h1
+            className={`font-ruberoidBold text-brandWhite1x text-center text-3xl`}
+          >
+            Get your Students registered today
+          </h1>
+          <p
+            className={`font-madeTommyLight text-sm text-center px-10 lg:px-96`}
+          >
             And some set of body text to spice things up and better
             understanding. That’s all Init. And some set of body text to spice
             things up and better understanding.
