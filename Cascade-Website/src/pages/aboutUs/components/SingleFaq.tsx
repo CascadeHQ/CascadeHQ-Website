@@ -46,6 +46,9 @@ const SingleFaq: React.FC<SingleFaqProps> = ({ faq }) => {
               </p>
             </div>
           ) : null}
+          <div className={`border-b-2 pb-3`}>
+            
+          </div>
         </div>
       </main>
     </>
