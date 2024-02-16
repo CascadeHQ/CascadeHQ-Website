@@ -68,3 +68,28 @@
     font-family: "made-tommy-bold-outline";
     src: url("../fonts/Made-Tommy/MADE-TOMMY-Bold-Outline_.woff") format("woff");
 }
+
+@font-face {
+    font-family: "value-black";
+    src: url("../fonts/Value/value-black.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "value-bold";
+    src: url("../fonts/Value/value-bold.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "value-medium";
+    src: url("../fonts/Value/value-medium.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "value-regular";
+    src: url("../fonts/Value/value-regular.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "euclid-regular";
+    src: url("../fonts/euclid-circular-a-cufonfonts/euclid_circular_a_regular-webfont.woff2") format("woff2");
+}

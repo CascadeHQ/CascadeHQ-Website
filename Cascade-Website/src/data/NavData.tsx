@@ -10,13 +10,18 @@ const NavData = [
     end: false,
   },
   {
-    pageName: "Programs",
-    link: "/programs",
+    pageName: "Why Cascade",
+    link: "/why-cascade",
     end: false,
   },
   {
-    pageName: "Help",
-    link: "/help",
+    pageName: "Blog",
+    link: "/blog",
+    end: false,
+  },
+  {
+    pageName: "Contact Us",
+    link: "/contact-us",
     end: false,
   },
 ];

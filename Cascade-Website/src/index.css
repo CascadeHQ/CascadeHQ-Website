@@ -181,3 +181,23 @@
     src: url("./assets/fonts/Ruberiod/Ruberoid-UltraLightOblique.woff") format("woff");
         
 }
+
+@font-face {
+    font-family: "euclid-regular";
+    src: url("./assets/fonts/euclid-circular-a-cufonfonts/euclid_circular_a_regular-webfont.woff") format("woff");
+}
+
+@font-face {
+    font-family: "euclid-bold";
+    src: url("./assets/fonts/euclid-circular-a-cufonfonts/euclid_circular_a_bold-webfont.woff") format("woff");
+}
+
+@font-face {
+    font-family: "euclid-medium";
+    src: url("./assets/fonts/euclid-circular-a-cufonfonts/euclid_circular_a_medium-webfont.woff") format("woff");
+}
+
+@font-face {
+    font-family: "euclid-semibold";
+    src: url("./assets/fonts/euclid-circular-a-cufonfonts/euclid_circular_a_semibold-webfont.woff") format("woff");
+}

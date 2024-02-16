@@ -51,6 +51,19 @@ export default {
         ruberoidThinOblique: ["ruberoid-thin-oblique", "sans-serif"],
         ruberoidUltraLight: ["ruberoid-ultraLight", "sans-serif"],
         ruberoidUltraLightOblique: ["ruberoid-ultraLight-oblique", "sans-serif"],
+
+        valueBlack:["value-black", "sans-serif"],
+        valueBold: ["value-bold", "sans-serif"],
+        valueMedium:["value-medium", "sans-serif"],
+        valueRegular: ["value-regular", "sans-serif"],
+
+        euclidRegular: ["euclid-regular"],
+        euclidBold: ["euclid-bold"],
+
+        euclidMedium: ["euclid-medium"],
+
+        euclidSemibold: ["euclid-semibold"],
+
       },
       fontSize: {
         xxs: "10px",
