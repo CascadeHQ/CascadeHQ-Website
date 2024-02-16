@@ -25,7 +25,7 @@ const OurTeamSection = () => {
         <div className={`px-5 my-24 mx-auto xl:w-[80%] `}>
           <div className={`text-center mb-10`}>
             <h1
-              className={`font-madeTommyExtraBold font-bold text-3xl xl:text-5xl`}
+              className={`text-brandBlack1x font-madeTommyExtraBold font-bold text-3xl xl:text-5xl`}
             >
               Our Team
             </h1>
@@ -33,8 +33,9 @@ const OurTeamSection = () => {
           <div
             className={`flex flex-col gap-y-12 xl:flex-row xl:gap-x-14 xl:items-center `}
           >
-            {teamMembers.map((member) => (
+            {teamMembers.map((member,index) => (
               <div
+              key={index}
                 className={`flex flex-col justify-center items-center gap-y-5`}
               >
                 <div>

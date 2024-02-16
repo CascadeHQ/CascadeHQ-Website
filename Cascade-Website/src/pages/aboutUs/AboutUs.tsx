@@ -6,6 +6,7 @@ import AboutHeroSection from "./components/AboutHeroSection";
 import SponsorsSection from "./components/SponsorsSection";
 import MainAboutUsSection from "./components/MainAboutUsSection";
 import OurTeamSection from "./components/OurTeamSection";
+import FaqSection from "./components/FaqSection";
 
 const AboutUs = () => {
   return (
@@ -21,6 +22,7 @@ const AboutUs = () => {
         <SponsorsSection/>
         <MainAboutUsSection/>
         <OurTeamSection/>
+        <FaqSection/>
       </>
     </Template>
   );

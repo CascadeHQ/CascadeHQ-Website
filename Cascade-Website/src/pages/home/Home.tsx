@@ -3,7 +3,7 @@ import HeroSection from "./HeroSection";
 import ServiceSection from "./ServiceSection";
 import CatelogueSection from "./CatelogueSection";
 import TestimoniesSection from "./TestimoniesSection";
-import FaQSection from "./FaQSection";
+import FaqSection from "../aboutUs/components/FaqSection";
 import Seo from "../../components/seo/Seo";
 import Banner from "./Banner";
 import Template from "../../widgets/Template";
@@ -25,7 +25,7 @@ const Home = () => {
         <CatelogueSection />
         <TestimoniesSection />
         <Banner />
-        {/* <FaQSection /> */}
+        <FaqSection />
       </>
     </Template>
   );
