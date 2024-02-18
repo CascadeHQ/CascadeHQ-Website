@@ -1,4 +1,3 @@
-import React from "react";
 import ImageOne from "../images/cute-kid-glasses-studio 1.png";
 import ImageTwo from "../images/medium-shot-kid-doing-homework.png";
 import ImageThree from "../images/young-african.png";

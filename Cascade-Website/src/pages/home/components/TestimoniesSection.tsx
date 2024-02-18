@@ -1,7 +1,4 @@
-import React from "react";
 import Profile from "../images/profile.png";
-import { IoArrowForwardCircleOutline } from "react-icons/io5";
-import { IoArrowBackCircleOutline } from "react-icons/io5";
 
 // interface Props = {}
 

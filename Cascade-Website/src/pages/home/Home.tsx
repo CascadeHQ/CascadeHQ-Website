@@ -1,9 +1,8 @@
-import React, { Fragment } from "react";
 import HeroSection from "./components/HeroSection";
 import ServiceSection from "./components/ServiceSection";
 import CatelogueSection from "./components/CatelogueSection";
 import TestimoniesSection from "./components/TestimoniesSection";
-import FaQSection from "./components/FaQSection";
+// import FaQSection from "./components/FaQSection";
 import Seo from "../../components/seo/Seo";
 import Banner from "./components/Banner";
 import Template from "../../widgets/Template";

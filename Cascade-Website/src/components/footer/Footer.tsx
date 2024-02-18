@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import Logo from "../../assets/logo/CASCADE-LOGO-3.jpg";
 import XLogo from "../../assets/images/x.png";

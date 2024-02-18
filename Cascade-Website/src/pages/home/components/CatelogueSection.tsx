@@ -1,4 +1,3 @@
-import React from "react";
 import JsImg from "../images/js.png";
 import Button from "../../../components/ui/Button";
 // interface Props = {}
