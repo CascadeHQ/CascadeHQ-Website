@@ -12,7 +12,7 @@ const AboutHeroSection = () => {
           <div className={`flex flex-col gap-y-3.5`}>
             <div>
               <h1
-                className={`font-bold text-3xl xl:text-[64px] leading-tight font-madeTommyExtraBold`}
+                className={`text-brandBlack1x font-bold text-3xl xl:text-[64px] leading-tight font-madeTommyExtraBold`}
               >
                 We Teach,
               </h1>

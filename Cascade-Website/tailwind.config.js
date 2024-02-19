@@ -15,6 +15,7 @@ export default {
         brandGray2x:"#fff9f1",
         brandWhite1x: "#FFFFFF",
         brandGreen: "#2E9C00",
+        brandGreen2: "#0C72BA",
       },
       fontFamily: {
         madeTommyBlack: ["made-tommy-black", "sans-serif"],
