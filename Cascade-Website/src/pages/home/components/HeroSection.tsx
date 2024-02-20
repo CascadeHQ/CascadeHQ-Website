@@ -63,7 +63,7 @@ const HeroSection = () => {
                 spice things up and better understanding. That’s all Init.{" "}
               </p>
             </div>
-            <div className={`flex justify-center gap-2 md:justify-normal`}>
+            <div className={`flex gap-2 md:justify-normal`}>
               <Button intent={"outline"}>Get your school invovled</Button>
             </div>
           </div>
