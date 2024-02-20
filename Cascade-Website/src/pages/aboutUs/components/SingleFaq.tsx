@@ -26,7 +26,7 @@ const SingleFaq: React.FC<SingleFaqProps> = ({ faq }) => {
           <div className={`flex justify-between items-center xl:text-xl `}>
             <div>
               <h1
-                className={`font-madeTommyExtraBold font-bold text-base xl:text-xl`}
+                className={`font-euclidBold text-base xl:text-xl`}
               >
                 {faq.question}
               </h1>
@@ -40,7 +40,7 @@ const SingleFaq: React.FC<SingleFaqProps> = ({ faq }) => {
           {showAnswer ? (
             <div>
               <p
-                className={`font-madeTommyThin font-normal text-sm leading-6 xl:text-base xl:w-[75%]`}
+                className={`font-euclidRegular font-normal text-sm leading-6 xl:text-base xl:w-[75%]`}
               >
                 {faq.answer}
               </p>

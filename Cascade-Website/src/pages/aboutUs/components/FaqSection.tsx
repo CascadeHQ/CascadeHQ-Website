@@ -49,12 +49,7 @@ const FaqSection = () => {
             <h1
               className={`font-madeTommyExtraBold font-bold text-3xl xl:text-[40px] text-brandGreen2 xl:leading-[48.41px]`}
             >
-              Frequently
-            </h1>
-            <h1
-              className={`font-madeTommyExtraBold font-bold text-3xl xl:text-[40px] text-brandGreen2 xl:leading-[48.41px]`}
-            >
-              Asked Questions
+              Frequently <br /> Asked Questions 
             </h1>
           </div>
           <div
