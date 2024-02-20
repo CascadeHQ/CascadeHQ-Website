@@ -23,6 +23,16 @@
     src: url("./assets/fonts/euclid-circular-a-cufonfonts/euclid_circular_a_semibold-webfont.woff") format("woff");
 }
 
+@font-face {
+    font-family: "euclid-italic";
+    src: url("./assets/fonts/euclid-circular-a-cufonfonts/euclid_circular_a_italic-webfont.woff") format("woff");
+}
+
+@font-face {
+    font-family: "euclid-italicBold";
+    src: url("./assets/fonts/euclid-circular-a-cufonfonts/euclid_circular_a_bold_italic-webfont.woff") format("woff");
+}
+
 
 @font-face {
     font-family: "value-bold";

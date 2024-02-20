@@ -26,6 +26,9 @@ export default {
         euclidBold: ["euclid-bold", "sans-serif"],
         euclidMedium: ["euclid-medium", "sans-serif"],
         euclidSemibold: ["euclid-semibold", "sans-serif"],
+        euclidItalic: ["euclid-italic", "sans-serif"],
+        euclidItalicBold: ["euclid-italicBold", "sans-serif"],
+
       },
       fontSize: {
         xxs: "10px",
