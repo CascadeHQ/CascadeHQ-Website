@@ -44,6 +44,20 @@ export default {
         "service-pattern":"url('./assets/images/Rectangle.png')",
         "about-hero-section":"url('./src/pages/aboutUs/images/Background.jpg)"
       },
+      animation:{
+        marquee:'marquee 25s linear infinite',
+        marqueeSec: 'marqueeSec 25s linear infinite',
+      },
+      keyframes:{
+        marquee: {
+          '0%': { transform: 'translateX(0%)' },
+          '100%': { transform: 'translateX(-100%)' },
+        },
+        marqueeSec: {
+          '0%': { transform: 'translateX(100%)' },
+          '100%': { transform: 'translateX(0%)' },
+        },
+      },
     },
   },
   plugins: [],
