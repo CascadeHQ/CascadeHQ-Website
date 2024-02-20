@@ -7,7 +7,7 @@ const AboutHeroSection = () => {
     <>
       <main className={`bg-[url(/src/pages/aboutUs/images/Background.jpg)] bg-center bg-cover`}>
         <div
-          className={`h-fit flex flex-col px-5 mt-5 xl:flex-row xl:items-center xl:gap-x-36 xl:pl-16`}
+          className={`h-fit flex flex-col px-5 mt-5 md:flex-row lg:flex-row lg:items-center lg:gap-x-36 lg:pl-16`}
         >
           <div className={`flex flex-col gap-y-3.5`}>
             <div>
@@ -22,7 +22,7 @@ const AboutHeroSection = () => {
                 We Empower.
               </h1>
             </div>
-            <div className={`flex items-center xl:items-start gap-x-4 xl:gap-x-8`}>
+            <div className={`flex items-center lg:items-start gap-x-4 lg:gap-x-8`}>
               <img src={StarImage} alt="star" className={`w-[18.92px] h-[19px] xl:w-[38.92px] xl:h-[39px]`}/>
               <p className={`font-madeTommyRegular font-normal text-md md:text-base  xl:font-bold w-full xl:w-[500px] xl:leading-5`}>
                 And some set of body text to spice things up and better
