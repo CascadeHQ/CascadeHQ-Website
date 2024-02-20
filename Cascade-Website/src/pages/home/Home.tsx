@@ -1,11 +1,11 @@
 import React, { Fragment } from "react";
-import HeroSection from "./HeroSection";
-import ServiceSection from "./ServiceSection";
-import CatelogueSection from "./CatelogueSection";
-import TestimoniesSection from "./TestimoniesSection";
+import HeroSection from "./components/HeroSection";
+import ServiceSection from "./components/ServiceSection";
+import CatelogueSection from "./components/CatelogueSection";
+import TestimoniesSection from "./components/TestimoniesSection";
 import FaqSection from "../aboutUs/components/FaqSection";
 import Seo from "../../components/seo/Seo";
-import Banner from "./Banner";
+import Banner from "./components/Banner";
 import Template from "../../widgets/Template";
 
 // interface Props = {}

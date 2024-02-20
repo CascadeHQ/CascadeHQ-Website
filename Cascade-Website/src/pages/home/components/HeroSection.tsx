@@ -1,15 +1,14 @@
 import React from "react";
-import ImageOne from "../../assets/images/cute-kid-glasses-studio 1.png";
-import ImageTwo from "../../assets/images/medium-shot-kid-doing-homework.png";
-import ImageThree from "../../assets/images/young-african.png";
-import ImageFour from "../../assets/images/young.png";
-import Button from "../../components/ui/Button";
+import ImageOne from "../images/cute-kid-glasses-studio 1.png";
+import ImageTwo from "../images/medium-shot-kid-doing-homework.png";
+import ImageThree from "../images/young-african.png";
+import ImageFour from "../images/young.png";
+import Button from "../../../components/ui/Button";
 // import StarPepicom from "../../assets/images/pepicons-print_stars.png";
 // import ArrowSpiral from "../../assets/images/arrow-spiral-up.png";
 // import ArrowWiggle from "../../assets/images/arrow-wiggle-up-1.png";
 // import StarMdi from "../../assets/images/mdi_stars.png";
 // import StarWi from "../../assets/images/wi_stars.png"
-
 
 // interface Props = {}
 
@@ -83,7 +82,7 @@ const HeroSection = () => {
                 </svg>{" "}
                 Book a call
               </Button>
-            </div>    
+            </div>
           </div>
           <div
             className={`col-span-8  grid grid-cols-2 gap-2 justify-center items-center md:col-span-5 lg:gap-4`}
