@@ -3,6 +3,7 @@ import ServiceSection from "./components/ServiceSection";
 import CatelogueSection from "./components/CatelogueSection";
 import TestimoniesSection from "./components/TestimoniesSection";
 import FaqSection from "../aboutUs/components/FaqSection";
+import SponsorsSection from "../aboutUs/components/SponsorsSection";
 import Seo from "../../components/seo/Seo";
 import Banner from "./components/Banner";
 import Template from "../../widgets/Template";
@@ -20,6 +21,7 @@ const Home = () => {
           name="Cascade"
         />
         <HeroSection />
+        <SponsorsSection/>
         <ServiceSection />
         <CatelogueSection />
         <TestimoniesSection />
