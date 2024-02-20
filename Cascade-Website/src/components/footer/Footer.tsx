@@ -1,25 +1,98 @@
 import { Link } from "react-router-dom";
 // import Logo from "../../assets/logo/CASCADE-LOGO-3.jpg";
+import FooterImage from "../../assets/images/footer.jpg";
+import arrowIcon from "../../assets/images/Arrow.svg";
 import XLogo from "../../assets/images/x.png";
 import InstaLogo from "../../assets/images/instagram.png";
 import FacebookLogo from "../../assets/images/facebook.png";
 import LinkedinLogo from "../../assets/images/linkedin.png";
+import { NavLink } from "react-router-dom";
 
 const Footer = () => {
+  // page links
+  const pageLinks = [
+    {
+      page: "Home",
+      link: "",
+    },
+    {
+      page: "About us",
+      link: "",
+    },
+    {
+      page: "Programs",
+      link: "",
+    },
+    {
+      page: "Contact us",
+      link: "",
+    },
+  ];
+
+  // resources link
+  const resourcesLink = [
+    {
+      page: "FAQ",
+      link: "",
+    },
+    {
+      page: "Gallery",
+      link: "",
+    },
+    {
+      page: "Support",
+      link: "",
+    },
+  ];
   return (
     <>
-      <footer>
-        <div className={`bg-brandBlue2x`}>
-            <div className={`flex flex-col justify-center items-center`}>
-                {/* <Link to={`/`}><img src={Logo} alt="Cascade Logo" className={`w-96`}/></Link> */}
-                <div className={`flex gap-4`}>
-                <Link to={`/`}><img src={LinkedinLogo} alt="Cascade Logo"/></Link>
-                <Link to={`/`}><img src={XLogo} alt="Cascade Logo"/></Link>
-                <Link to={`/`}><img src={FacebookLogo} alt="Cascade Logo"/></Link>
-                <Link to={`/`}><img src={InstaLogo} alt="Cascade Logo"/></Link>
-
-                </div>
+      <footer className={`bg-brandBlue2x`}>
+        <div
+          className={`font-euclidRegular flex flex-col gap-y-12 md:flex-row lg:flex-row md:justify-between lg:justify-between md:mr-[20%] lg:mr-[20%] px-5 py-10 my-0 mx-auto lg:p-16`}
+        >
+          <div className="flex flex-col gap-y-2.5">
+            <img src={FooterImage} alt="logo" className="w-[80px] h-[80px]"/>
+            <h1 className="font-valueBlack font-bold text-brandBlue5x text-xl lg:text-2xl">The Brand Name</h1>
+          </div>
+          <div className="flex flex-col md:flex-row lg:flex-row gap-y-12 lg:gap-x-12">
+            <div>
+              <h3 className="text-xl lg:text-2xl font-valueBlack">Pages</h3>
+              <div className="flex flex-col gap-y-2.5 mt-2">
+                {pageLinks.map((page) => (
+                  <NavLink to={page.link}>
+                    <p className="font-valueMedium flex items-center gap-x-1 text-sm lg:text-base font-medium">
+                      <img
+                        src={arrowIcon}
+                        alt="icon"
+                        className="w-[7.26px] h-[12px]"
+                      />
+                      {page.page}
+                    </p>
+                  </NavLink>
+                ))}
+              </div>
             </div>
+            <div>
+              <h3 className="text-xl lg:text-2xl font-valueBlack">Resources</h3>
+              <div className="flex flex-col gap-y-2.5 mt-2">
+                {resourcesLink.map((resource) => (
+                  <NavLink to={resource.link}>
+                    <p className="font-valueMedium flex items-center gap-x-1 text-sm lg:text-base font-medium">
+                      <img
+                        src={arrowIcon}
+                        alt="icon"
+                        className="w-[7.26px] h-[12px]"
+                      />
+                      {resource.page}
+                    </p>
+                  </NavLink>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="bg-brandBlue5x p-5 text-center">
+          <p className="font-valueMedium font-bold text-white text-sm lg:text-base">With Love from The Brand Name,2023. All rights researved.</p>
         </div>
       </footer>
     </>
