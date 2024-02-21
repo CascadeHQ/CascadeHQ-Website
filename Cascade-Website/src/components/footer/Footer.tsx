@@ -48,13 +48,13 @@ const Footer = () => {
     <>
       <footer className={`bg-brandBlue2x`}>
         <div
-          className={`font-euclidRegular flex flex-col gap-y-12 md:flex-row lg:flex-row md:justify-between lg:justify-between md:mr-[20%] lg:mr-[20%] px-5 py-10 my-0 mx-auto lg:p-16`}
+          className={`font-euclidRegular flex flex-col gap-y-12 md:flex-row lg:flex-row md:justify-between lg:justify-between md:mr-[20%] lg:mr-[20%] px-5 py-10 my-0 mx-auto md:p-12 lg:p-16`}
         >
           <div className="flex flex-col gap-y-2.5">
             <img src={FooterImage} alt="logo" className="w-[80px] h-[80px]"/>
             <h1 className="font-valueBlack font-bold text-brandBlue5x text-xl lg:text-2xl">The Brand Name</h1>
           </div>
-          <div className="flex flex-col md:flex-row lg:flex-row gap-y-12 lg:gap-x-12">
+          <div className="flex flex-col md:flex-row lg:flex-row gap-y-12 md:gap-x-12 lg:gap-x-12">
             <div>
               <h3 className="text-xl lg:text-2xl font-valueBlack">Pages</h3>
               <div className="flex flex-col gap-y-2.5 mt-2">
