@@ -1,7 +1,6 @@
 // component
 import SingleFaq from "./SingleFaq";
 
-
 const FaqSection = () => {
   const faqs = [
     {
@@ -47,16 +46,16 @@ const FaqSection = () => {
         <div className={`px-5 my-24`}>
           <div className={`text-center`}>
             <h1
-              className={`font-madeTommyExtraBold font-bold text-3xl xl:text-[40px] text-brandGreen2 xl:leading-[48.41px]`}
+              className={`font-madeTommyExtraBold font-bold text-3xl lg:text-[40px] text-brandGreen2 lg:leading-[48.41px]`}
             >
-              Frequently <br /> Asked Questions 
+              Frequently <br /> Asked Questions
             </h1>
           </div>
           <div
-            className={`flex flex-col gap-y-2.5 mt-10 xl:mt-16 mx-auto my-0 xl:w-3/5`}
+            className={`flex flex-col gap-y-2.5 mt-10 lg:mt-16 mx-auto my-0 md:w-4/5 lg:w-3/5`}
           >
             {faqs.map((faq) => (
-              <SingleFaq key={faq.id} faq={faq}/>
+              <SingleFaq key={faq.id} faq={faq} />
             ))}
           </div>
         </div>
