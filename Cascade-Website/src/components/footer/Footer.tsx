@@ -1,11 +1,6 @@
-import { Link } from "react-router-dom";
 // import Logo from "../../assets/logo/CASCADE-LOGO-3.jpg";
 import FooterImage from "../../assets/images/footer.jpg";
 import arrowIcon from "../../assets/images/Arrow.svg";
-import XLogo from "../../assets/images/x.png";
-import InstaLogo from "../../assets/images/instagram.png";
-import FacebookLogo from "../../assets/images/facebook.png";
-import LinkedinLogo from "../../assets/images/linkedin.png";
 import { NavLink } from "react-router-dom";
 
 const Footer = () => {

@@ -4,7 +4,7 @@ const SponsorsSection = () => {
   return (
     <>
       <main className={`w-full bg-brandBlue2x py-2`}>
-        <Marquee/>
+        {/* <Marquee/> */}
       </main>
     </>
   );
