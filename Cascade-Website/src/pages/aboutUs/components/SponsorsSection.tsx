@@ -1,4 +1,4 @@
-import Marquee from "../../../components/marquee/Marquee";
+// import Marquee from "../../../components/marquee/Marquee";
 
 const SponsorsSection = () => {
   return (
