@@ -30,8 +30,12 @@ const CatelogueSection = () => {
                   interest.
                 </p>
                 <div className={`flex gap-2 md:justify-normal`}>
-                  <Button intent={"outline"}>Learn More <span className={`text-xl`}><GoArrowUpRight />
-</span></Button>
+                  <Button intent={"outline"}>
+                    Learn More{" "}
+                    <span className={`text-xl`}>
+                      <GoArrowUpRight />
+                    </span>
+                  </Button>
                 </div>
               </div>
               <div className={`py-5   overflow-hidden`}>
@@ -55,8 +59,12 @@ const CatelogueSection = () => {
                   interest.
                 </p>
                 <div className={`flex gap-2 md:justify-normal`}>
-                  <Button intent={"outline"}>Learn More <span className={`text-xl`}><GoArrowUpRight />
-</span></Button>
+                  <Button intent={"outline"}>
+                    Learn More{" "}
+                    <span className={`text-xl`}>
+                      <GoArrowUpRight />
+                    </span>
+                  </Button>
                 </div>
               </div>
               <div className={`py-5   overflow-hidden`}>

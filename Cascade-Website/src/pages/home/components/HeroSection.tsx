@@ -22,7 +22,7 @@ const HeroSection = () => {
             className={`relative col-span-8 md:col-span-7 flex flex-col gap-4 justify-center`}
           >
             <h1
-              className={`flex flex-col text-4xl font-DegularDiplayBlack md:text-5xl lg:text-6xl`}
+              className={`flex flex-col text-5xl font-DegularDiplayBlack md:text-6xl lg:text-7xl`}
             >
               Give your children an early tech education.
             </h1>

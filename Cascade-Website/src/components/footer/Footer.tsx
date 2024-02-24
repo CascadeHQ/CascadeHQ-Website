@@ -1,4 +1,4 @@
-// import Logo from "../../assets/logo/CASCADE-LOGO-3.jpg";
+import Logo from "../../assets/logo/CASCADE LOGO TRANSAPARENT-2.png";
 import FooterImage from "../../assets/images/footer.jpg";
 import arrowIcon from "../../assets/images/Arrow.svg";
 import { NavLink } from "react-router-dom";
@@ -46,8 +46,7 @@ const Footer = () => {
           className={`font-euclidRegular flex flex-col gap-y-12 md:flex-row lg:flex-row md:justify-between lg:justify-between md:mr-[20%] lg:mr-[20%] px-5 py-10 my-0 mx-auto lg:p-16`}
         >
           <div className="flex flex-col gap-y-2.5">
-            <img src={FooterImage} alt="logo" className="w-[80px] h-[80px]"/>
-            <h1 className="font-valueBlack font-bold text-brandBlue5x text-xl lg:text-2xl">The Brand Name</h1>
+            <img src={Logo} alt="Cascade logo" className={`w-[70%]`}/>
           </div>
           <div className="flex flex-col md:flex-row lg:flex-row gap-y-12 lg:gap-x-12">
             <div>
@@ -87,7 +86,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="bg-brandBlue5x p-5 text-center">
-          <p className="font-valueMedium font-bold text-white text-sm lg:text-base">With Love from The Brand Name,2023. All rights researved.</p>
+          <p className="font-valueRegular text-white text-sm lg:text-base">With Love from Cascade, 2023. All rights researved.</p>
         </div>
       </footer>
     </>
