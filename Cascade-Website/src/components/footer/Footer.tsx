@@ -1,5 +1,4 @@
 import Logo from "../../assets/logo/CASCADE LOGO TRANSAPARENT-2.png";
-import FooterImage from "../../assets/images/footer.jpg";
 import arrowIcon from "../../assets/images/Arrow.svg";
 import { NavLink } from "react-router-dom";
 

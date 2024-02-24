@@ -4,9 +4,6 @@ import {
   HiChevronDoubleRight,
 } from "react-icons/hi2";
 
-// images
-import ArrowIcon from "../images/Arrow.svg";
-
 interface Faq {
   question: string;
   answer: string;
