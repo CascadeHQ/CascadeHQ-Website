@@ -25,7 +25,7 @@ const OurTeamSection = () => {
         <div className={`px-5 my-24 mx-auto md:w-[100%] xl:w-[80%] `}>
           <div className={`text-center mb-10`}>
             <h1
-              className={`text-brandBlack1x font-madeTommyExtraBold font-bold text-3xl xl:text-5xl`}
+              className={`text-brandBlack1x font-DegularDiplayBold font-bold text-4xl mdLtext-5xl lg:text-6xl`}
             >
               Our Team
             </h1>
@@ -42,8 +42,8 @@ const OurTeamSection = () => {
                   <img src={TeamMember1} alt="image" className={`rounded-full w-[190px] h-[190px] xl:w-[290px] xl:h-[290px]`}/>
                 </div>
                 <div className={`text-center`}>
-                  <h4 className={`font-madeTommyRegular font-bold xl:text-2xl xl:leading-7`}>{member.name}</h4>
-                  <p className={`font-madeTommyThin font-normal mx-auto my-0 w-full md:w-[90%] md:text-sm xl:w-full mt-3 xl:mt-5 xl:text-base xl:leading-5`}>
+                  <h4 className={`font-valueBold lg:text-2xl lg:leading-7`}>{member.name}</h4>
+                  <p className={`font-normal font-euclidRegular mx-auto my-0 w-full md:w-[90%] md:text-sm xl:w-full mt-3 xl:mt-5 xl:text-base xl:leading-5`}>
                     {member.information}
                   </p>
                 </div>
