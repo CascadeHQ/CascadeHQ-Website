@@ -57,13 +57,17 @@ const HeroSection = () => {
                   fill="#010101"
                 />
               </svg>
-              <p className={`text-base text-brandGray3x font-TrapMedium leading-7  md:text-lg md:leading-9 lg:leading-10 lg:pr-32 `}>
+              <p
+                className={`text-base text-brandGray3x font-TrapMedium leading-7  md:text-lg md:leading-9 lg:leading-10 lg:pr-32 `}
+              >
                 And some set of body text to spice things up and better
                 understanding. That’s all Init. And some set of body text to
                 spice things up and better understanding. That’s all Init.{" "}
               </p>
             </div>
-            <div className={`flex gap-2 md:justify-normal`}>
+            <div
+              className={`flex gap-2 md:justify-normal w-fit`}
+            >
               <Button intent={"outline"}>Get your school invovled</Button>
             </div>
           </div>
