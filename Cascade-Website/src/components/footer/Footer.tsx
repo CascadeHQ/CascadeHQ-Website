@@ -7,11 +7,11 @@ const Footer = () => {
   const pageLinks = [
     {
       page: "Home",
-      link: "",
+      link: "/",
     },
     {
       page: "About us",
-      link: "",
+      link: "/about-us",
     },
     {
       page: "Programs",
@@ -19,7 +19,7 @@ const Footer = () => {
     },
     {
       page: "Contact us",
-      link: "",
+      link: "/contact-us",
     },
   ];
 

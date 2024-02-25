@@ -5,6 +5,8 @@ import Template from "../../widgets/Template";
 
 // seo
 import Seo from "../../components/seo/Seo";
+import ContactText from "./components/ContactText";
+import ContactForm from "./components/ContactForm";
 
 const ContactUs = () => {
   return (
@@ -15,7 +17,10 @@ const ContactUs = () => {
         type="Website"
         name="Cascade"
       />
-      <p className="px-5 lg:px-16">ContactUs</p>
+      <div className="px-5 mb-16 flex flex-col gap-y-14 lg:gap-x-14 md:gap-x-8 md:flex-row lg:flex-row lg:px-16">
+        <ContactText/>
+        <ContactForm/>
+      </div>
     </Template>
   );
 };
