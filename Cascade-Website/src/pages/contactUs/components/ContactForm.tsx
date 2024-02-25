@@ -96,7 +96,7 @@ const ContactForm = () => {
             className="p-2.5 lg:h-40 bg-brandBlue3x rounded-lg text-brandBlack8x text-base outline-0 resize-none"
           />
         </div>
-        <button className="font-DegularDiplayBold text-sm lg:text-xl w-full rounded-lg text-white p-2.5 bg-brandBlue5x">
+        <button className="font-DegularDiplayBold text-sm lg:text-xl w-full rounded-lg text-white p-2.5 bg-brandBlue5x hover:opacity-60">
           Submit
         </button>
       </form>
