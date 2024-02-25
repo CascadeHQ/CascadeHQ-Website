@@ -46,7 +46,7 @@ const FaqSection = () => {
         <div className={`px-5 my-24`}>
           <div className={`text-center`}>
             <h1
-              className={`font-madeTommyExtraBold font-bold text-3xl lg:text-[40px] text-brandGreen2 lg:leading-[48.41px]`}
+              className={`text-4xl font-DegularDiplayBold xl:text-[40px] text-brandGreen2 xl:leading-[48.41px]`}
             >
               Frequently <br /> Asked Questions
             </h1>

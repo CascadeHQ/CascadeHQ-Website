@@ -12,19 +12,19 @@ const AboutHeroSection = () => {
           <div className={`flex flex-col gap-y-3.5 lg:w-[50%]`}>
             <div>
               <h1
-                className={`text-brandBlack1x font-bold text-3xl lg:text-[64px] leading-tight font-madeTommyExtraBold`}
+                className={`text-brandBlack1x font-bold text-5xl md:text-6xl lg:text-7xl leading-tight font-DegularDiplayBlack`}
               >
                 We Teach,
               </h1>
               <h1
-                className={`font-bold text-3xl lg:text-[64px] leading-tight font-madeTommyExtraBold`}
+                className={`font-bold text-5xl md:text-6xl lg:text-7xl leading-tight font-DegularDiplayBlack`}
               >
                 We Empower.
               </h1>
             </div>
             <div className={`flex items-center lg:items-start gap-x-4 lg:gap-x-8`}>
-              <img src={StarImage} alt="star" className={`w-[18.92px] h-[19px] lg:w-[38.92px] lg:h-[39px]`}/>
-              <p className={`font-madeTommyRegular font-normal text-md md:text-base  lg:font-bold w-full lg:w-[500px] lg:leading-5`}>
+              <img src={StarImage} alt="star" className={`w-[18.92px] h-[19px] xl:w-[38.92px] xl:h-[39px]`}/>
+              <p className={`text-base text-brandGray3x font-TrapRegular leading-7  md:text-lg md:leading-8 lg:leading-9  w-full lg:w-[500px]`}>
                 And some set of body text to spice things up and better
                 understanding. That’s all Init. And some set of body text to
                 spice things up and better understanding. That’s all Init.{" "}

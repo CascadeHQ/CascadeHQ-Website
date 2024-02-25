@@ -16,13 +16,13 @@ const HeroSection = () => {
     <>
       <main>
         <div
-          className={`bg-brandWhite1x grid grid-rows-12 gap-6  py-5 px-5  md:grid-cols-12 md:gap-5 md:px-10 lg:px-20 lg:gap-24`}
+          className={`bg-brandWhite1x grid grid-rows-12 gap-6  py-8 px-5  md:grid-cols-12 md:gap-5 md:px-10 md:py-14 lg:px-20 lg:gap-24`}
         >
           <div
             className={`relative col-span-8 md:col-span-7 flex flex-col gap-4 justify-center`}
           >
             <h1
-              className={`flex flex-col text-4xl font-valueBlack md:text-5xl lg:text-6xl`}
+              className={`flex flex-col text-5xl font-DegularDiplayBlack md:text-6xl lg:text-7xl`}
             >
               Give your children an early tech education.
             </h1>
@@ -57,7 +57,7 @@ const HeroSection = () => {
                   fill="#010101"
                 />
               </svg>
-              <p className={`text-base font-euclidRegular md:text-lg lg:pr-32`}>
+              <p className={`text-base text-brandGray3x font-TrapMedium leading-7  md:text-lg md:leading-9 lg:leading-10 lg:pr-32 `}>
                 And some set of body text to spice things up and better
                 understanding. That’s all Init. And some set of body text to
                 spice things up and better understanding. That’s all Init.{" "}

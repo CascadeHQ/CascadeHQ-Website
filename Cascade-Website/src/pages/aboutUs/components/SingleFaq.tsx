@@ -1,7 +1,8 @@
 import { useState } from "react";
-
-// images
-import ArrowIcon from "../images/Arrow.svg";
+import {
+  HiChevronDoubleDown,
+  HiChevronDoubleRight,
+} from "react-icons/hi2";
 
 interface Faq {
   question: string;
@@ -25,30 +26,30 @@ const SingleFaq: React.FC<SingleFaqProps> = ({ faq }) => {
         <div className={`cursor-pointer`} onClick={() => handleShowAnswers()}>
           <div className={`flex justify-between items-center lg:text-xl `}>
             <div>
-              <h1
-                className={`font-euclidBold text-base lg:text-xl`}
-              >
+              <h1 className={`font-valueBold text-base xl:text-xl`}>
                 {faq.question}
               </h1>
             </div>
             <div>
               <button onClick={() => handleShowAnswers()}>
-                <img src={ArrowIcon} alt="icon" />
+                {showAnswer ? (
+                  <HiChevronDoubleDown />
+                ) : (
+                  <HiChevronDoubleRight />
+                )}
               </button>
             </div>
           </div>
           {showAnswer ? (
             <div>
               <p
-                className={`font-euclidRegular font-normal text-sm leading-6 xl:text-base xl:w-[75%]`}
+                className={`font-normal font-TrapRegular pt-2 text-brandGray3x text-sm leading-6 xl:text-base xl:w-[75%]`}
               >
                 {faq.answer}
               </p>
             </div>
           ) : null}
-          <div className={`border-b-2 pb-3`}>
-            
-          </div>
+          <div className={`border-b-2 pb-3`}></div>
         </div>
       </main>
     </>

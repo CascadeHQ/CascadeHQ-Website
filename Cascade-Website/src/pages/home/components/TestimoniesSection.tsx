@@ -9,13 +9,13 @@ const TestimoniesSection = () => {
         <article className={`grid grid-cols-1 justify-center items-center gap-10 py-12 `}>
           <div className={`flex items-center justify-center px-5 md:px-10 lg:px-20`}>
             <div>
-              <h2 className={`text-2xl font-valueBold pb-2 md:text-3xl lg:text-4xl`}>
+              <p className={`text-brandBlue1x font-valueBold py-3`}>Sneak Peak - From Techies who started their journey early!</p>
+              <h2 className={`text-4xl font-DegularDiplayBold pb-2 md:text-5xl lg:text-6xl`}>
                 Why it is best to start <br /> early?
               </h2>
-              <p className={`font-euclidItalic`}>Sneak peak - From Techies who started their journey early!</p>
             </div>
           </div>
-          <section className={`flex items-center  py-4 mx-5   gap-3 overflow-x-scroll snap-mandatory snap-x lg:px-20 lg:mx-10`}>
+          <section className={`flex items-center  py-4 mx-5   gap-3 overflow-x-scroll snap-mandatory snap-x no-scrollbar lg:px-20 lg:mx-10`}>
               
           <div className={`grid grid-cols-1 gap-4 justify-center items-center w-full  shrink-0   bg-brandWhite1x/80 p-5 px-10 rounded-xl shadow-xl md:w-2/5`}>
                 <p className={`text-6xl font-euclidItalicBold`}>"</p>

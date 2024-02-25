@@ -23,7 +23,7 @@ const NavBar = () => {
         </aside>
         <nav className={`flex items-center lg:gap-56  `}>
           <ul
-            className={`font-euclidMedium ${
+            className={`font-euclidBold ${
               isOpen
                 ? `block w-full h-full bg-white  flex-col items-start justify-start absolute right-0 p-10 top-20 z-50  `
                 : `hidden md:flex`
