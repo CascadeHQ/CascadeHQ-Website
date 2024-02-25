@@ -5,12 +5,12 @@ const MainAboutUsSection = () => {
   return (
     <>
       <main>
-        <div className={`px-5 flex flex-col gap-y-10 pt-5 md:flex-row xl:flex-row md:gap-x-10 xl:gap-x-10 items-center xl:px-16 xl:py-14`}>
+        <div className={`px-5 flex flex-col gap-y-10 pt-5 md:flex-row lg:flex-row md:gap-x-10 lg:gap-x-10 items-center lg:px-16 lg:py-14`}>
           <div className={`w-[100%]`}>
             <img
               src={AboutUsImage}
               alt="image"
-              className={`rounded-lg w-[100%] h-[100%] md:w-[400px] md:h-[400px] xl:w-[620px] xl:h-[620px] `}
+              className={`rounded-lg w-[100%] h-[100%] md:w-[400px] md:h-[400px] lg:w-[620px] lg:h-[620px] `}
             />
           </div>
           <div className={`w-[100%]`}>

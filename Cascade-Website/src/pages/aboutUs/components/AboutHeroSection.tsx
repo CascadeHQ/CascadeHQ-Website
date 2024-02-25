@@ -7,9 +7,9 @@ const AboutHeroSection = () => {
     <>
       <main className={`bg-[url(/src/pages/aboutUs/images/Background.jpg)] bg-center bg-cover`}>
         <div
-          className={`h-fit flex flex-col px-5 mt-5 md:flex-row lg:flex-row lg:items-center lg:gap-x-36 lg:pl-16`}
+          className={`h-fit lg:h-[100%] flex flex-col px-5 mt-5 md:flex-row lg:flex-row lg:items-center lg:gap-x-36 lg:pl-16`}
         >
-          <div className={`flex flex-col gap-y-3.5`}>
+          <div className={`flex flex-col gap-y-3.5 lg:w-[50%]`}>
             <div>
               <h1
                 className={`text-brandBlack1x font-bold text-5xl md:text-6xl lg:text-7xl leading-tight font-DegularDiplayBlack`}

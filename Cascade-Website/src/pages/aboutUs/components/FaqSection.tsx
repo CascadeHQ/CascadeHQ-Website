@@ -52,7 +52,7 @@ const FaqSection = () => {
             </h1>
           </div>
           <div
-            className={`flex flex-col gap-y-2.5 mt-10 xl:mt-16 mx-auto my-0 xl:w-3/5`}
+            className={`flex flex-col gap-y-2.5 mt-10 lg:mt-16 mx-auto my-0 md:w-4/5 lg:w-3/5`}
           >
             {faqs.map((faq) => (
               <SingleFaq key={faq.id} faq={faq} />
