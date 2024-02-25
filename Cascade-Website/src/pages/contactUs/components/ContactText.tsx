@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 const ContactText = () => {
   return (
-    <div className="flex flex-col gap-y-10 md:w-1/2 lg:w-1/2">
+    <div className="flex flex-col gap-y-10 md:w-2/5 lg:w-1/2">
       <div>
         <h1 className="font-DegularDiplayBold font-bold text-3xl lg:text-5xl mb-2">
           Contact Us
