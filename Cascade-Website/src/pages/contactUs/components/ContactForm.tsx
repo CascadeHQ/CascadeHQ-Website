@@ -12,6 +12,7 @@ const ContactForm = () => {
           </label>
           <input
             type="text"
+            title="Name"
             className="p-2.5 bg-brandBlue3x rounded-lg text-brandBlack8x text-base outline-0"
           />
         </div>
@@ -24,6 +25,7 @@ const ContactForm = () => {
           </label>
           <input
             type="text"
+            title="Please enter an email address"
             className="p-2.5 bg-brandBlue3x rounded-lg text-brandBlack8x text-base outline-0"
           />
         </div>
@@ -37,6 +39,7 @@ const ContactForm = () => {
           <select
             name=""
             id=""
+            title="Select a Service"
             className="p-2.5 bg-brandBlue3x rounded-lg text-brandBlack8x text-base outline-0"
           >
             <option value="Select project type" selected className="bg-white">
@@ -66,6 +69,7 @@ const ContactForm = () => {
           <select
             name=""
             id=""
+            title="Budget"
             className="p-2.5 bg-brandBlue3x rounded-lg text-brandBlack8x text-base outline-0"
           >
             <option value="Select project type" selected className="bg-white">
@@ -92,6 +96,7 @@ const ContactForm = () => {
           <textarea
             name=""
             id=""
+            title="Message"
             className="p-2.5 lg:h-40 bg-brandBlue3x rounded-lg text-brandBlack8x text-base outline-0 resize-none"
           />
         </div>
