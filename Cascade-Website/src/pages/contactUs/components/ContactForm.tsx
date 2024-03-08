@@ -13,7 +13,7 @@ const ContactForm = () => {
           </label>
           <input
             type="text"
-            className="p-2.5 bg-brandBlue3x rounded-lg text-brandBlack8x text-base outline-0"
+            className="p-2.5 opacity-[16%] bg-brandBlue3x rounded-lg text-brandBlack8x text-base outline-0"
           />
         </div>
         <div className="flex flex-col gap-y-1 mb-5">
@@ -25,7 +25,7 @@ const ContactForm = () => {
           </label>
           <input
             type="text"
-            className="p-2.5 bg-brandBlue3x rounded-lg text-brandBlack8x text-base outline-0"
+            className="p-2.5 opacity-[16%] bg-brandBlue3x rounded-lg text-brandBlack8x text-base outline-0"
           />
         </div>
         <div className="flex flex-col gap-y-1 mb-5">
@@ -38,7 +38,7 @@ const ContactForm = () => {
           <select
             name=""
             id=""
-            className="p-2.5 bg-brandBlue3x rounded-lg text-brandBlack8x text-base outline-0"
+            className="p-2.5 opacity-[16%] bg-brandBlue3x rounded-lg text-brandBlack8x text-base outline-0"
           >
             <option value="Select project type" selected className="bg-white">
               Select project type
@@ -67,7 +67,7 @@ const ContactForm = () => {
           <select
             name=""
             id=""
-            className="p-2.5 bg-brandBlue3x rounded-lg text-brandBlack8x text-base outline-0"
+            className="p-2.5 opacity-[16%] bg-brandBlue3x rounded-lg text-brandBlack8x text-base outline-0"
           >
             <option value="Select project type" selected className="bg-white">
               Select project type
@@ -93,7 +93,7 @@ const ContactForm = () => {
           <textarea
             name=""
             id=""
-            className="p-2.5 lg:h-40 bg-brandBlue3x rounded-lg text-brandBlack8x text-base outline-0 resize-none"
+            className="p-2.5 lg:h-40 opacity-[16%] bg-brandBlue3x rounded-lg text-brandBlack8x text-base outline-0 resize-none"
           />
         </div>
         <button className="font-DegularDiplayBold text-sm lg:text-xl w-full rounded-lg text-white p-2.5 bg-brandBlue5x hover:opacity-60">

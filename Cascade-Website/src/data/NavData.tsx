@@ -9,11 +9,11 @@ const NavData = [
     link: "/about-us",
     end: false,
   },
-  {
-    pageName: "Why Cascade",
-    link: "/why-cascade",
-    end: false,
-  },
+  // {
+  //   pageName: "Why Cascade",
+  //   link: "/why-cascade",
+  //   end: false,
+  // },
   {
     pageName: "Blog",
     link: "/blog",

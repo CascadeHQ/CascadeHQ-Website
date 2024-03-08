@@ -5,8 +5,6 @@ import CascadeLogo from "../../assets/logo/CASCADE LOGO TRANSAPARENT.png";
 import Button from "../ui/Button";
 import { AiOutlineAlignRight, AiOutlineClose } from "react-icons/ai";
 
-
-
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
@@ -48,10 +46,16 @@ const NavBar = () => {
             })}
           </ul>
           <div className={`flex items-center justify-center gap-5`}>
-            <Button intent={"outline"} className={`lg:mr-8`}>
-              Register
-            </Button>
-            <button type="button" className={`md:hidden`} onClick={()=>setIsOpen(!isOpen)}>
+            <NavLink to="/contact-us">
+              <Button intent={"outline"} className={`lg:mr-8`}>
+                Register
+              </Button>
+            </NavLink>
+            <button
+              type="button"
+              className={`md:hidden`}
+              onClick={() => setIsOpen(!isOpen)}
+            >
               {isOpen ? (
                 <AiOutlineClose className={`text-2xl`} />
               ) : (
