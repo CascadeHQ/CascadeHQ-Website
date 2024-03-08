@@ -5,39 +5,42 @@ const FaqSection = () => {
   const faqs = [
     {
       id: 1,
-      question: "What is Cascade?",
+      question: "What makes Cascade stand out ?",
       answer:
-        "The Crivia app is a fun quiz app that allows players competein crypto quiz matches, learn about the world of web3 and crypto in a fun and entertaining manner and earn from their knowledge.",
+        "Our platform stands out due to its focus on innovation, adaptability, and inclusivity. We integrate cutting-edge technology to personalize learning experiences, ensuring that every individual can thrive regardless of their background or learning style.",
     },
     {
       id: 2,
-      question: "What is Cascade?",
+      question:
+        "How do you ensure the quality of the educational content on your platform?",
       answer:
-        "The Crivia app is a fun quiz app that allows players competein crypto quiz matches, learn about the world of web3 and crypto in a fun and entertaining manner and earn from their knowledge.",
+        "We have a rigorous vetting process for educational content, working closely with experts in various fields to curate materials that are accurate, up-to-date, and engaging. Additionally, we continuously gather feedback from users to improve and refine our content offerings.",
     },
     {
       id: 3,
-      question: "What is Cascade?",
+      question: "How does your platform foster collaboration among learners?",
       answer:
-        "The Crivia app is a fun quiz app that allows players competein crypto quiz matches, learn about the world of web3 and crypto in a fun and entertaining manner and earn from their knowledge.",
+        "Collaboration is at the heart of our platform. We offer various features such as discussion forums, group projects, and virtual study sessions to encourage interaction and collaboration among learners. Through these collaborative activities, students can learn from each other, exchange ideas, and deepen their understanding of the subject matter.",
     },
     {
       id: 4,
-      question: "What is Cascade?",
+      question:
+        "How do you measure the effectiveness and impact of your educational solutions?",
       answer:
-        "The Crivia app is a fun quiz app that allows players competein crypto quiz matches, learn about the world of web3 and crypto in a fun and entertaining manner and earn from their knowledge.",
+        "We employ a variety of metrics and assessment tools to measure the effectiveness and impact of our educational solutions, including learner performance data, feedback surveys, and qualitative assessments, allowing us to continuously improve and refine our offerings.",
     },
     {
       id: 5,
-      question: "What is Cascade?",
+      question:
+        "What kind of technology and tools do you use to enhance the learning experience?",
       answer:
-        "The Crivia app is a fun quiz app that allows players competein crypto quiz matches, learn about the world of web3 and crypto in a fun and entertaining manner and earn from their knowledge.",
+        "We leverage a range of technologies and tools, including AI-driven adaptive learning algorithms,  and interactive multimedia resources, to enhance the learning experience and engage learners effectively.",
     },
     {
       id: 6,
-      question: "What is Cascade?",
+      question: "Can your platform accommodate learners of all ages and educational backgrounds?",
       answer:
-        "The Crivia app is a fun quiz app that allows players competein crypto quiz matches, learn about the world of web3 and crypto in a fun and entertaining manner and earn from their knowledge.",
+        "Yes, our platform is designed to cater to learners of all ages and educational backgrounds, from higher primary students to lifelong learners seeking professional development opportunities.",
     },
   ];
   return (

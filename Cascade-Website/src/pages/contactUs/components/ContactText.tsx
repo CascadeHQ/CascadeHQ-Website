@@ -18,7 +18,7 @@ const ContactText = () => {
           Email
         </h1>
         <p className="font-TrapRegular font-normal text-sm lg:text-xl lg:leading-6 lg:w-4/5 xl:w-full">
-          beebs@gmail.com
+          cascadehq@gmail.com
         </p>
       </div>
 
