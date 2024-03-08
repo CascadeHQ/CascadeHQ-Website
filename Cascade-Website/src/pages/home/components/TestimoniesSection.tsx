@@ -3,6 +3,38 @@ import Profile from "../images/profile.png";
 // interface Props = {}
 
 const TestimoniesSection = () => {
+  const testimonies = [
+    {
+      author: "Henry Agu",
+      testimony:
+        "Starting early laid the foundation for my tech career. As ateenager, diving into coding and robotics sparked my passion fortechnology, setting me on a trajectory towards success in the industry.",
+      profession: "FrontEnd Developer",
+    },
+    {
+      author: "Ediomo Jose",
+      testimony:
+        "Early exposure to technology opened doors I never imagined. From building my first website in middle school to developing apps in high school, those early experiences equipped me with the skills and confidence to thrive in the tech world",
+      profession: "Software Developer",
+    },
+    {
+      author: "Kalu Daniel",
+      testimony:
+        "Beginning my tech journey early gave me a competitive edge. By the time I entered college, I had already interned at tech companies and contributed to open-source projects, positioning myself as a standout candidate for future opportunities",
+      profession: "Software Developer",
+    },
+    {
+      author: "Philip Anthony",
+      testimony:
+        "Starting early allowed me to make mistakes and learn from them. As a young entrepreneur experimenting with different tech ventures, I gained invaluable insights and resilience that continue to shape my approach to innovation and problem-solving.",
+      profession: "Software Developer",
+    },
+    {
+      author: "Ozor Bryan",
+      testimony:
+        "Early immersion in tech cultivated a lifelong passion for learning. From tinkering with hardware to exploring the latest programming languages, my journey from a young age instilled in me a curiosity and hunger for knowledge that drives me forward every day.",
+      profession: "Software Developer",
+    },
+  ];
   return (
     <>
       <section>
@@ -26,143 +58,27 @@ const TestimoniesSection = () => {
           <section
             className={`flex items-center  py-4 mx-5   gap-3 overflow-x-scroll snap-mandatory snap-x no-scrollbar lg:px-20 lg:mx-10`}
           >
-            <div
-              className={`grid grid-cols-1 gap-4 justify-center items-center w-full  shrink-0   bg-brandWhite1x/80 p-5 px-10 rounded-xl shadow-xl md:w-2/5`}
-            >
-              <p className={`text-6xl font-euclidItalicBold`}>"</p>
-              <div className={`flex gap-4`}>
-                <img
-                  src={Profile}
-                  alt="Cascade: Profile images"
-                  className={`w-[15%] h-[15%] border-2  border-brandBlue1x rounded-full`}
-                />
-                <div>
-                  <p className={`text-md font-valueBold`}>Henry Agu</p>
-                  <p className={`text-xxs font-euclidItalic md:text-xs`}>
-                    Software Developer
-                  </p>
-                  <p className={`text-xxs  font-euclidItalic md:text-xs`}>
-                    Twitter handle
-                  </p>
+            {testimonies.map((testimony, index) => (
+              <div
+                className={`grid grid-cols-1 gap-4 justify-center items-center w-full  shrink-0   bg-brandWhite1x/80 p-5 px-10 rounded-xl shadow-xl md:w-2/5`}
+                key={index}
+              >
+                <p className={`text-6xl font-euclidItalicBold`}>"</p>
+                <div className={`flex gap-4`}>
+                  <div>
+                    <p className={`text-md font-valueBold`}>
+                      {testimony.author}
+                    </p>
+                    <p className={`text-xxs font-euclidItalic md:text-xs`}>
+                      {testimony.profession}
+                    </p>
+                  </div>
                 </div>
+                <p className={`text-xs font-euclidRegular lg:text-sm`}>
+                  {testimony.testimony}
+                </p>
               </div>
-              <p className={`text-xs font-euclidRegular lg:text-sm`}>
-                Starting early laid the foundation for my tech career. As a
-                teenager, diving into coding and robotics sparked my passion for
-                technology, setting me on a trajectory towards success in the
-                industry.
-              </p>
-            </div>
-            <div
-              className={`grid grid-cols-1 gap-4 justify-center items-center   w-full  shrink-0   bg-brandWhite1x/80 p-5 px-10 rounded-xl shadow-xl md:w-2/5`}
-            >
-              <p className={`text-6xl font-euclidItalicBold`}>"</p>
-              <div className={`flex gap-4`}>
-                <img
-                  src={Profile}
-                  alt="Cascade: Profile images"
-                  className={`w-[15%] h-[15%] border-2  border-brandBlue1x rounded-full`}
-                />
-                <div>
-                  <p className={`text-md font-valueBold`}>Henry Agu</p>
-                  <p className={`text-xxs font-euclidItalic md:text-xs`}>
-                    Software Developer
-                  </p>
-                  <p className={`text-xxs  font-euclidItalic md:text-xs`}>
-                    Twitter handle
-                  </p>
-                </div>
-              </div>
-              <p className={`text-xs font-euclidRegular lg:text-sm`}>
-                Early exposure to technology opened doors I never imagined. From
-                building my first website in middle school to developing apps in
-                high school, those early experiences equipped me with the skills
-                and confidence to thrive in the tech world
-              </p>
-            </div>
-            <div
-              className={`grid grid-cols-1 gap-4 justify-center items-center   w-full  shrink-0   bg-brandWhite1x/80 p-5 px-10 rounded-xl shadow-xl md:w-2/5`}
-            >
-              <p className={`text-6xl font-euclidItalicBold`}>"</p>
-              <div className={`flex gap-4`}>
-                <img
-                  src={Profile}
-                  alt="Cascade: Profile images"
-                  className={`w-[15%] h-[15%] border-2  border-brandBlue1x rounded-full`}
-                />
-                <div>
-                  <p className={`text-md font-valueBold`}>Henry Agu</p>
-                  <p className={`text-xxs font-euclidItalic md:text-xs`}>
-                    Software Developer
-                  </p>
-                  <p className={`text-xxs  font-euclidItalic md:text-xs`}>
-                    Twitter handle
-                  </p>
-                </div>
-              </div>
-              <p className={`text-xs font-euclidRegular lg:text-sm`}>
-                Beginning my tech journey early gave me a competitive edge. By
-                the time I entered college, I had already interned at tech
-                companies and contributed to open-source projects, positioning
-                myself as a standout candidate for future opportunities
-              </p>
-            </div>
-            <div
-              className={`grid grid-cols-1 gap-4 justify-center items-center   w-full  shrink-0   bg-brandWhite1x/80 p-5 px-10 rounded-xl shadow-xl md:w-2/5`}
-            >
-              <p className={`text-6xl font-euclidItalicBold`}>"</p>
-              <div className={`flex gap-4`}>
-                <img
-                  src={Profile}
-                  alt="Cascade: Profile images"
-                  className={`w-[15%] h-[15%] border-2  border-brandBlue1x rounded-full`}
-                />
-                <div>
-                  <p className={`text-md font-valueBold`}>Henry Agu</p>
-                  <p className={`text-xxs font-euclidItalic md:text-xs`}>
-                    Software Developer
-                  </p>
-                  <p className={`text-xxs  font-euclidItalic md:text-xs`}>
-                    Twitter handle
-                  </p>
-                </div>
-              </div>
-              <p className={`text-xs font-euclidRegular lg:text-sm`}>
-                Starting early allowed me to make mistakes and learn from them.
-                As a young entrepreneur experimenting with different tech
-                ventures, I gained invaluable insights and resilience that
-                continue to shape my approach to innovation and
-                problem-solving..
-              </p>
-            </div>
-            <div
-              className={`grid grid-cols-1 gap-4 justify-center items-center   w-full  shrink-0   bg-brandWhite1x/80 p-5 px-10 rounded-xl shadow-xl md:w-2/5`}
-            >
-              <p className={`text-6xl font-euclidItalicBold`}>"</p>
-              <div className={`flex gap-4`}>
-                <img
-                  src={Profile}
-                  alt="Cascade: Profile images"
-                  className={`w-[15%] h-[15%] border-2  border-brandBlue1x rounded-full`}
-                />
-                <div>
-                  <p className={`text-md font-valueBold`}>Henry Agu</p>
-                  <p className={`text-xxs font-euclidItalic md:text-xs`}>
-                    Software Developer
-                  </p>
-                  <p className={`text-xxs  font-euclidItalic md:text-xs`}>
-                    Twitter handle
-                  </p>
-                </div>
-              </div>
-              <p className={`text-xs font-euclidRegular lg:text-sm`}>
-                Early immersion in tech cultivated a lifelong passion for
-                learning. From tinkering with hardware to exploring the latest
-                programming languages, my journey from a young age instilled in
-                me a curiosity and hunger for knowledge that drives me forward
-                every day.
-              </p>
-            </div>
+            ))}
           </section>
         </article>
       </section>
