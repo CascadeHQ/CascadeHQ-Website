@@ -1,4 +1,3 @@
-import React from "react";
 
 // Template
 import Template from "../../widgets/Template";

@@ -22,9 +22,9 @@ const HeroSection = () => {
             className={`relative col-span-8 md:col-span-7 flex flex-col gap-4 justify-center`}
           >
             <h1
-              className={`flex flex-col text-5xl font-DegularDiplayBlack md:text-6xl lg:text-7xl`}
+              className={`flex flex-col text-5xl font-DegularDiplayBlack md:text-5xl lg:text-7xl`}
             >
-              Give your children an early tech education.
+              Empowering Tomorrow's Innovators
             </h1>
             <div className={`flex gap-4`}>
               <svg
@@ -57,13 +57,15 @@ const HeroSection = () => {
                   fill="#010101"
                 />
               </svg>
-              <p className={`text-base text-brandGray3x font-TrapMedium leading-7  md:text-lg md:leading-9 lg:leading-10 lg:pr-32 `}>
-                And some set of body text to spice things up and better
-                understanding. That’s all Init. And some set of body text to
-                spice things up and better understanding. That’s all Init.{" "}
+              <p
+                className={`text-base text-brandGray3x font-TrapMedium leading-7  md:text-lg md:leading-9 lg:leading-10 lg:pr-32 `}
+              >
+                Welcome to our innovative platform, where we are dedicated to empowering tomorrow's innovators through early tech education for young minds.{" "}
               </p>
             </div>
-            <div className={`flex gap-2 md:justify-normal`}>
+            <div
+              className={`flex gap-2 md:justify-normal w-fit`}
+            >
               <Button intent={"outline"}>Get your school invovled</Button>
             </div>
           </div>
