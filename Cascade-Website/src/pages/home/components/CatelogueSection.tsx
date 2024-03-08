@@ -1,4 +1,6 @@
-import JsImg from "../images/js.png";
+import JsImg from "../images/code.avif";
+import ui from "../images/ux.avif";
+
 import Button from "../../../components/ui/Button";
 import { GoArrowUpRight } from "react-icons/go";
 
@@ -25,7 +27,8 @@ const CatelogueSection = () => {
                   Web Development
                 </h2>
                 <p className={`text-lg font-TrapMedium text-center py-4`}>
-                Development of modern and responsive websites. Leveraging HTML, CSS and JavaScript, it offers a seamless solution.
+                  Development of modern and responsive websites. Leveraging
+                  HTML, CSS and JavaScript, it offers a seamless solution.
                 </p>
                 <div className={`flex gap-2 md:justify-normal`}>
                   <Button intent={"outline"}>
@@ -52,9 +55,8 @@ const CatelogueSection = () => {
                   UI/UX Design
                 </h2>
                 <p className={`text-lg font-TrapMedium text-center py-4`}>
-                  The program is designed to teach you how to start and boost
-                  your content creation career regardless of your niche
-                  interest.
+                  Use Figma in UI Design, User Interface, User Experience
+                  design, UX Design & Web Design. Build Interactive UI.
                 </p>
                 <div className={`flex gap-2 md:justify-normal`}>
                   <Button intent={"outline"}>
@@ -67,7 +69,7 @@ const CatelogueSection = () => {
               </div>
               <div className={`py-5   overflow-hidden`}>
                 <img
-                  src={JsImg}
+                  src={ui}
                   alt="Cascade: Javascript programming language"
                   className={`rounded-xl w-full`}
                 />
