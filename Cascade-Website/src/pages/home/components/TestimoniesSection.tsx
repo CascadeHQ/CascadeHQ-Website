@@ -1,4 +1,3 @@
-import Profile from "../images/profile.png";
 
 // interface Props = {}
 
