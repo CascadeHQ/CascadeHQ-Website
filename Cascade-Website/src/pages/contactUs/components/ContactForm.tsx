@@ -1,8 +1,10 @@
 
 const ContactForm = () => {
+  const handleFormSubmit = () =>{
+  }
   return (
     <div className="md:w-3/5 lg:w-1/2">
-      <form action="">
+      <form action="" onSubmit={handleFormSubmit}>
         <div className="flex flex-col gap-y-1 mb-5">
           <label
             htmlFor=""
